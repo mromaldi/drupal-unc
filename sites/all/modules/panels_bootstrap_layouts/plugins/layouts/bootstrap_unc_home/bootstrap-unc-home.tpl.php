@@ -23,8 +23,12 @@
 
   <?php if ($content['novedades'] || $content['videos']): ?>
     <div class="row">
-      <?php print $content['novedades']; ?>
-      <?php print $content['videos']; ?>
+      <div class="col-xs-12 col-md-6">
+        <?php print $content['novedades']; ?>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <?php print $content['videos']; ?>
+      </div>
     </div>
   <?php endif ?>
 
