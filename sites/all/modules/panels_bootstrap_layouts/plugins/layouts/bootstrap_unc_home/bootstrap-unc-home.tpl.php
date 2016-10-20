@@ -28,7 +28,7 @@
       </div>
       <div class="col-xs-12 col-md-6">
         <?php print $content['videos']; ?>
-      </div>
+      </div> 
     </div>
   <?php endif ?>
 
