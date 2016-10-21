@@ -17,5 +17,7 @@ $plugin = array(
     'novedades' => t('Novedades'),
     'videos' => t('Videos'),
     'agenda' => t('Agenda'),
+    'servicios' => t('Servicios'),
+    'contacto' => t('Contacto'),
   ),
 );

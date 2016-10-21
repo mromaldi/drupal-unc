@@ -41,4 +41,15 @@
     </div>
   <?php endif ?>
 
+  <?php if ($content['servicios'] || $content['contacto']): ?>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <?php print $content['servicios']; ?>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <?php print $content['contacto']; ?>
+      </div> 
+    </div>
+  <?php endif ?>
+
 </div>
