@@ -33,3 +33,30 @@
 #panel-menu-superior ul.menu.nav li{
     float:left;
 }
+
+/*SLIDER*/
+
+.views-field.views-field-title {
+    position: absolute;
+    top: 234px;
+    background-color: #74bde9;
+    padding-top: 32px;
+    padding-bottom: 28px;
+    padding-right: 24px;
+    padding-left: 84px;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+    font-weight: bold;
+    font-size:26px;
+    color:#0C3C6D;
+    background-image: url("../images/icono_titular.png");
+    background-repeat: no-repeat;
+    background-size: 52px 42px;
+    background-position-y: 32px;
+    background-position-x: 18px;
+    width: 400px;
+}
+.views-field.views-field-title a{
+    color:#0C3C6D;
+    text-decoration: none;
+}
