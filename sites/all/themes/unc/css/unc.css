@@ -33,3 +33,25 @@
 #panel-menu-superior ul.menu.nav li{
     float:left;
 }
+
+/* ---------  PANEL HOME ----------- */
+
+/* Vista Tira Noticias */
+.pane-vista-tira-noticias {
+    background: #E6F2FD;
+    font-size: 11px;
+}
+.view-id-vista_tira_noticias .owl-item {
+    margin: 15px 0 0 0;
+    padding: 0 15px;
+}
+.view-id-vista_tira_noticias .owl-item .carousel-caption {
+    padding: 0;
+    position: relative;
+    text-shadow: none;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 13px;
+    font-weight: bold;
+}
