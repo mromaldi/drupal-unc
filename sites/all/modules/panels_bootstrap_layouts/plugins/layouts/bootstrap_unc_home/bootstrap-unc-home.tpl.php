@@ -15,9 +15,7 @@
   <?php endif ?>
   <?php if ($content['tira_noticias']): ?>
     <div class="row">
-      <div class="col-xs-12 col-md-12">
-        <?php print $content['tira_noticias']; ?>
-      </div>
+      <?php print $content['tira_noticias']; ?>
     </div>
   <?php endif ?>
 
