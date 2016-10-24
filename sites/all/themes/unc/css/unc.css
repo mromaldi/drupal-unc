@@ -1,5 +1,5 @@
 
-/*HEADER*/
+/* ---------  HEADER ---------  */
 .navbar{
     height:211px;
     background-color: #9fd2f1;
@@ -24,7 +24,7 @@
     margin-top: 68px;
 }
 
-/*MENU*/
+/* ---------  MENU  --------- */
 
 #block-menu-menu-men-perfiles ul.menu.nav li{
     display:inline;
@@ -34,9 +34,9 @@
     float:left;
 }
 
+/* ---------  PANEL HOME ----------- */
 
 /*SLIDER*/
-
 .field-content.unc-slider{
     position: absolute;
     top: 234px;
@@ -62,7 +62,9 @@
     text-decoration: none;
 }
 
-/* ---------  PANEL HOME ----------- */
+.flex-direction-nav {
+    display: none;
+}
 
 /* Vista Tira Noticias */
 .pane-vista-tira-noticias {
@@ -82,4 +84,41 @@
     bottom: 0;
     margin-top: 13px;
     font-weight: bold;
+    text-align: left;
+}
+.owl-theme .owl-controls{
+    text-align:right;
+}
+.owl-pagination{
+    margin-right: 8px;
+}
+
+/*vista videos*/
+.nav-tabs.nav-justified > li > a{
+    border-bottom: none;
+}
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus{
+ border:0;
+ background-color: #ddd; 
+}
+.panel-pane.pane-views.pane-vista-videos h2.pane-title{
+    text-indent: -9000px;
+    background-image: url("../images/faja-audiovisual.png");
+    background-size: 300px 40px;
+    background-repeat: no-repeat;
+    height: 40px;
+}
+/*vista servicios*/
+.views-field.views-field-field-banner{
+    margin-bottom: 10px;
+    margin-right: 30px;
+    width: 265px;
+}
+
+.panel-pane.pane-views.pane-vista-tira-banners.vista-servicios h2.pane-title{
+    text-indent: -9000px;
+    background-image: url("../images/faja-servicios.png");
+    background-size: 160px 40px;
+    background-repeat: no-repeat;
+    height: 40px;
 }

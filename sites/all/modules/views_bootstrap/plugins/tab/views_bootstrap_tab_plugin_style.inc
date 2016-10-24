@@ -16,6 +16,7 @@ class ViewsBootstrapTabPluginStyle extends views_plugin_style {
     $options['tab_field'] = array('default' => NULL);
     $options['tab_type'] = array('default' => 'tabs');
     $options['justified'] = array('default' => FALSE);
+    $options['html_tab_title'] = array('default' => FALSE);
     return $options;
   }
 
@@ -62,6 +63,12 @@ class ViewsBootstrapTabPluginStyle extends views_plugin_style {
         '#title' => t('Justified'),
         '#default_value' => $this->options['justified'],
         '#description' => t('Make tabs equal widths of their parent'),
+      );
+      $form['html_tab_title'] = array(
+              '#type' => 'checkbox',
+              '#title' => t('HTML Tab Title'),
+              '#default_value' => $this->options['html_tab_title'],
+              '#description' => t('Allow HTML in tab title.'),
       );
     }
   }
