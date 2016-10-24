@@ -66,6 +66,7 @@
     margin-right: 0;
     opacity: 1;
     background-size: 37px 65px;
+    font-size: 1px;
 }
 
 .owl-carousel-block_19 .owl-controls.clickable .owl-next {
@@ -83,6 +84,7 @@
     margin-left: 0;
     opacity: 1;
     background-size: 37px 65px;
+    font-size: 1px;
 }
 
 .owl-carousel-block_19 .owl-theme .owl-controls {
@@ -90,7 +92,10 @@
     margin-right: -70px;
 }
 
-
+.pane-vista-tira-banners {
+    height: 70px;
+    margin-bottom: 60px;
+}
 /*SLIDER*/
 
 .field-content.unc-slider{
@@ -138,4 +143,130 @@
     bottom: 0;
     margin-top: 13px;
     font-weight: bold;
+}
+
+/*---VISTA NOVEDADES-----*/
+.pane-vista-novedades h2{
+    background-image: url("../images/faja-novedades.png");
+    background-repeat: no-repeat;
+    background-size: 193px 40px;
+    text-indent: -9000px;
+    height: 40px;
+    background-position-x: 50%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.view-id-vista_novedades li {
+    background-color: #f5fafe;
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.view-id-vista_novedades li a {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #222222;
+}
+
+.view-id-vista_novedades li:hover {
+    background-color: #E6F2FD;
+}
+
+.view-id-vista_novedades li a:hover {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+/*-----VISTA EVENTOS HOME-------*/
+.pane-vista-eventos h2{
+    background-image: url("../images/faja-agenda.png");
+    background-repeat: no-repeat;
+    background-size: 160px 40px;
+    text-indent: -9000px;
+    height: 40px;
+    background-position-x: 10%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.view-id-vista_eventos .fecha-agenda {
+    background-color: #9fd2f1;
+    color: #ffffff;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    text-transform: lowercase;
+    float: left;
+}
+
+.view-id-vista_eventos .fecha-agenda:hover {
+    background-color: #90278e;
+}
+
+.view-id-vista_eventos table {
+    width: 100%;
+}
+
+.view-id-vista_eventos table td {
+    width: 50%;
+    height: 50px;
+    background-color: #f5fafe;
+    margin-bottom: 5px;
+}
+
+.view-id-vista_eventos table tr:nth-child(odd) {
+    background-color: #f5fafe;
+}
+
+.view-id-vista_eventos table tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+.view-id-vista_eventos table td.col-1.col-first{
+    border-right: 30px solid #ffffff;
+}
+
+.titulo-agenda {
+    padding-top: 15px;
+}
+
+.titulo-agenda a{
+    margin-left: 15px;
+    color: #222222;
+}
+
+.titulo-agenda a:hover{
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.pane-vista-eventos {
+    margin-bottom: 40px;
+}
+
+/*-----SECCION CONTACTO-------*/
+.pane-vista-contacto h2{
+    background-image: url("../images/faja-contactos.png");
+    background-repeat: no-repeat;
+    background-size: 160px 40px;
+    text-indent: -9000px;
+    height: 40px;
+    background-position-x: 10%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.mapa-contacto {
+    background-color: #f5fafe;
+    float: left;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    margin-right: 20px;
 }
