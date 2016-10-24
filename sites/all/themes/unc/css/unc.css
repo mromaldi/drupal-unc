@@ -33,3 +33,58 @@
 #panel-menu-superior ul.menu.nav li{
     float:left;
 }
+
+/*VISTA TIRA DE BANNERS*/
+
+.view-vista-tira-banners {
+    margin-right: 70px;
+    margin-left: 40px;
+}
+
+.owl-carousel-block_19 .owl-item {
+    width: 170px !important;
+    margin-left: 30px;
+}
+    
+.owl-carousel-block_19 .owl-wrapper-outer{
+    position: absolute;
+}
+
+.owl-carousel-block_19 .owl-controls.clickable .owl-prev {
+    float: left;
+    background-image: url("../images/izquierda.png");
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 0;
+    padding: 0;
+    margin-left: -40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    opacity: 1;
+    background-size: 37px 65px;
+}
+
+.owl-carousel-block_19 .owl-controls.clickable .owl-next {
+    float: right;
+    background-image: url("../images/derecha.png");
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 0;
+    padding: 0;
+    margin-right: -70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    opacity: 1;
+    background-size: 37px 65px;
+}
+
+.owl-carousel-block_19 .owl-theme .owl-controls {
+    margin-left: -70px;
+    margin-right: -70px;
+}
