@@ -112,7 +112,7 @@
       </div>
     <?php endif; */?>
     <div id="logo-campus-virtual" class="logo-campus-virtual">
-        <img src="sites/default/files/logo_cv.png">
+        <img src="/drupalunc/sites/all/themes/unc/images/logo_cv.png">
     </div>
   </div>
     
