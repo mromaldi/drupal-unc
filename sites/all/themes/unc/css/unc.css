@@ -1,4 +1,9 @@
-
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:700);
+body{
+    font-family: 'Lato', sans-serif;
+    color: #222222;
+    font-size: 13px;
+}
 /* ---------  HEADER ---------  */
 .navbar{
     height:211px;
@@ -23,7 +28,38 @@
     margin-left: 200px;
     margin-top: 68px;
 }
-
+.logo-campus-virtual {
+    position: absolute;
+    float: right;
+    height: 308px;
+    width: 215px;
+    left: 925px;
+    top: 0px;
+}
+.container > .logo-campus-virtual, .container-fluid > .logo-campus-virtual{
+    
+}
+.logo-campus-virtual img{
+    width: 215px;
+}
+a.name.navbar-brand {
+    position: absolute;
+    top: 80px;
+    color:#005288;
+    font-size:20px;
+    margin-left: 0;
+}
+a.name.navbar-brand:hover{
+    color: #005288;   
+}
+p.lead {
+    position: absolute;
+    top: 125px;
+    left: 335px;
+    color:#005288;
+    font-weight: bold;
+    margin-left: 30px;
+}
 /* ---------  MENU  --------- */
 
 #block-menu-menu-men-perfiles ul.menu.nav li{
@@ -132,6 +168,10 @@
     background: #E6F2FD;
     font-size: 11px;
 }
+
+.view.view-vista-tira-noticias.view-id-vista_tira_noticias.view-display-id-block_1 {
+    margin-bottom: 40px;
+}
 .view-id-vista_tira_noticias .owl-item {
     margin: 15px 0 0 0;
     padding: 0 15px;
@@ -168,6 +208,8 @@
     background-size: 300px 40px;
     background-repeat: no-repeat;
     height: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
 }
 /*vista servicios*/
 .views-field.views-field-field-banner{
@@ -182,6 +224,8 @@
     background-size: 160px 40px;
     background-repeat: no-repeat;
     height: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
 }
 
 /*---VISTA NOVEDADES-----*/
@@ -308,4 +352,19 @@
     padding-right: 5px;
     padding-top: 15px;
     margin-right: 20px;
+}
+
+/* ----------- FOOTER ---------------*/
+
+.footer {
+    border-top: 1.5px solid #005288;
+}
+.footer-unc{
+    width: 371px;
+    height: 61px;
+    background-image: url(../images/logo_footer.png);
+    background-position: 0px;
+    background-size: 371px 61px;
+    background-repeat: no-repeat;
+    margin: auto;
 }

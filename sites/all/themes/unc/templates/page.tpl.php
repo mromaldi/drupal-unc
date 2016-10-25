@@ -111,7 +111,11 @@
         </nav>
       </div>
     <?php endif; ?>
+    <div id="logo-campus-virtual" class="logo-campus-virtual">
+        <img src="sites/default/files/logo_cv.png">
+    </div>
   </div>
+    
 </header>
 
 <div class="main-container <?php print $container_class; ?>">
@@ -165,8 +169,12 @@
   </div>
 </div>
 
-<?php if (!empty($page['footer'])): ?>
+
   <footer class="footer <?php print $container_class; ?>">
+    <?php if (!empty($page['footer'])): ?>
     <?php print render($page['footer']); ?>
+    <?php endif; ?>
+    <div class="footer-unc"></div>
   </footer>
-<?php endif; ?>
+
+
