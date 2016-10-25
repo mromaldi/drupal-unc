@@ -38,7 +38,7 @@
 
 /*VISTA TIRA DE BANNERS*/
 
-.view-vista-tira-banners {
+#tira-banners .view-vista-tira-banners {
     margin-right: 70px;
     margin-left: 40px;
 }
@@ -93,7 +93,7 @@
     margin-right: -70px;
 }
 
-.pane-vista-tira-banners {
+#tira-banners{
     height: 70px;
     margin-bottom: 60px;
 }
