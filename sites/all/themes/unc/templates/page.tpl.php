@@ -85,7 +85,7 @@
       <?php if (!empty($site_name)): ?>
         <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
       <?php endif; ?>
-
+      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only"><?php print t('Toggle navigation'); ?></span>
@@ -96,7 +96,7 @@
       <?php endif; ?>
     </div>
 
-    <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+    <?php /*if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
       <div class="navbar-collapse collapse">
         <nav role="navigation">
           <?php if (!empty($primary_nav)): ?>
@@ -110,7 +110,7 @@
           <?php endif; ?>
         </nav>
       </div>
-    <?php endif; ?>
+    <?php endif; */?>
     <div id="logo-campus-virtual" class="logo-campus-virtual">
         <img src="sites/default/files/logo_cv.png">
     </div>
@@ -140,7 +140,7 @@
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>
-      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
+      
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
