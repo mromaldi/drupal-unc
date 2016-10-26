@@ -257,9 +257,12 @@ p.lead {
     background-size: 193px 40px;
     text-indent: -9000px;
     height: 40px;
-    background-position-x: 50%;
-    margin-top: 60px;
+    background-position-x: 100px;
     margin-bottom: 40px;
+}
+
+.view-id-vista_novedades ul {
+    padding-left: 0px;
 }
 
 .view-id-vista_novedades li {
@@ -361,8 +364,7 @@ p.lead {
     background-size: 160px 40px;
     text-indent: -9000px;
     height: 40px;
-    background-position-x: 10%;
-    margin-top: 60px;
+    background-position-x: 100px;
     margin-bottom: 40px;
 }
 
@@ -389,4 +391,12 @@ p.lead {
     background-size: 371px 61px;
     background-repeat: no-repeat;
     margin: auto;
+}
+
+/*-----------MENU REDES SOCIALES--------*/
+.redes-sociales{
+    position: fixed;
+    float: right;
+    overflow: hidden;
+    top: 0;
 }
