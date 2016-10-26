@@ -37,7 +37,7 @@ body{
     top: 0px;
 }
 .container > .logo-campus-virtual, .container-fluid > .logo-campus-virtual{
-    
+    /*left: 660px;*/
 }
 .logo-campus-virtual img{
     width: 215px;
@@ -159,8 +159,30 @@ p.lead {
     text-decoration: none;
 }
 
-.flex-direction-nav {
-    display: none;
+.view-vista-slider-noticias #flexslider-1 ul.flex-direction-nav{
+    display:none;
+}
+
+.view-vista-slider-noticias #flexslider-1 ol.flex-control-nav.flex-control-paging{
+    text-align:right
+}
+
+.view-vista-slider-noticias #flexslider-1 ol.flex-control-nav.flex-control-paging a{
+    text-indent: 9999px;
+}
+.view-vista-slider-noticias #flexslider-1{
+    margin-bottom: 40px;
+}
+
+.flex-control-paging li a.flex-active {
+    background: #c4e2f7;
+    background: rgb(230, 242, 253);
+}
+.flex-control-paging li a:hover{
+    background: #c4e2f7;
+}
+.flex-control-paging li a{
+    background: rgba(134, 151, 145,1);
 }
 
 /* Vista Tira Noticias */
