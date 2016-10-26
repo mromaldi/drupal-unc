@@ -168,7 +168,7 @@ p.lead {
 }
 
 .view-vista-slider-noticias #flexslider-1 ol.flex-control-nav.flex-control-paging a{
-    text-indent: 9999px;
+    text-indent: -9999px;
 }
 .view-vista-slider-noticias #flexslider-1{
     margin-bottom: 40px;
