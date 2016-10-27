@@ -8,9 +8,8 @@
   <?php endif ?>
   <?php if ($content['tira_banner']): ?>
     <div class="row">
-      <div class="col-xs-12 col-md-12">
+
         <?php print $content['tira_banner']; ?>
-      </div>
     </div>
   <?php endif ?>
   <?php if ($content['tira_noticias']): ?>
@@ -33,20 +32,14 @@
 
   <?php if ($content['agenda']): ?>
     <div class="row">
-      <div class="col-xs-12 col-md-12">
-        <?php print $content['agenda']; ?>
-      </div>
+      <?php print $content['agenda']; ?>
     </div>
   <?php endif ?>
 
   <?php if ($content['servicios'] || $content['contacto']): ?>
     <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <?php print $content['servicios']; ?>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <?php print $content['contacto']; ?>
-      </div> 
+      <?php print $content['servicios']; ?>
+      <?php print $content['contacto']; ?>
     </div>
   <?php endif ?>
 

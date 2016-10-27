@@ -112,8 +112,11 @@
       </div>
     <?php endif; */?>
     <div id="logo-campus-virtual" class="logo-campus-virtual">
-        <img src="/drupalunc/sites/all/themes/unc/images/logo_cv.png">
+        <img src="<?php print $base_path.path_to_theme(); ?>/images/logo_cv.png" alt="unc" />
     </div>
+    <?php if (!empty($site_slogan)): ?>
+      <p class="lead"><?php print $site_slogan; ?></p>
+    <?php endif; ?>
   </div>
     
 </header>
@@ -121,10 +124,6 @@
 <div class="main-container <?php print $container_class; ?>">
 
   <header role="banner" id="page-header">
-    <?php if (!empty($site_slogan)): ?>
-      <p class="lead"><?php print $site_slogan; ?></p>
-    <?php endif; ?>
-
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
 

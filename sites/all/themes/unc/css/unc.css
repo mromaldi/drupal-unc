@@ -54,8 +54,8 @@ a.name.navbar-brand:hover{
 }
 p.lead {
     position: absolute;
-    top: 125px;
-    left: 335px;
+    top: 118px;
+    left: 270px;
     color:#005288;
     font-weight: bold;
     margin-left: 30px;
@@ -74,22 +74,27 @@ p.lead {
 
 /*VISTA TIRA DE BANNERS*/
 
+#tira-banners{
+    height: 70px;
+    margin-bottom: 60px;
+}
+
 #tira-banners .view-vista-tira-banners {
-    margin-right: 70px;
-    margin-left: 40px;
+/*    margin-right: 70px;
+    margin-left: 40px;*/
 }
 
 .owl-carousel-block_19 .owl-item {
-    width: 170px !important;
-    margin-left: 30px;
+/*    width: 170px !important;
+    margin-left: 30px;*/
 }
     
 .owl-carousel-block_19 .owl-wrapper-outer{
-    position: absolute;
+    /*position: absolute;*/
 }
 
 .owl-carousel-block_19 .owl-controls.clickable .owl-prev {
-    float: left;
+/*    float: left;
     background-image: url("../images/izquierda.png");
     background-repeat: no-repeat;
     width: 70px;
@@ -103,11 +108,11 @@ p.lead {
     margin-right: 0;
     opacity: 1;
     background-size: 37px 65px;
-    font-size: 1px;
+    font-size: 1px;*/
 }
 
 .owl-carousel-block_19 .owl-controls.clickable .owl-next {
-    float: right;
+/*    float: right;
     background-image: url("../images/derecha.png");
     background-repeat: no-repeat;
     width: 70px;
@@ -121,18 +126,16 @@ p.lead {
     margin-left: 0;
     opacity: 1;
     background-size: 37px 65px;
-    font-size: 1px;
+    font-size: 1px;*/
 }
 
 .owl-carousel-block_19 .owl-theme .owl-controls {
-    margin-left: -70px;
-    margin-right: -70px;
+/*    margin-left: -70px;
+    margin-right: -70px;*/
+}
+.owl-item img {
 }
 
-#tira-banners{
-    height: 70px;
-    margin-bottom: 60px;
-}
 /*SLIDER*/
 .field-content.unc-slider{
     position: absolute;
@@ -164,11 +167,11 @@ p.lead {
 }
 
 .view-vista-slider-noticias #flexslider-1 ol.flex-control-nav.flex-control-paging{
-    text-align:right
+    text-align: right;
 }
 
 .view-vista-slider-noticias #flexslider-1 ol.flex-control-nav.flex-control-paging a{
-    text-indent: -9999px;
+    text-align: center;
 }
 .view-vista-slider-noticias #flexslider-1{
     margin-bottom: 40px;
@@ -209,10 +212,10 @@ p.lead {
     font-weight: bold;
     text-align: left;
 }
-.owl-theme .owl-controls{
+.view-id-vista_tira_noticias .owl-theme .owl-controls{
     text-align:right;
 }
-.owl-pagination{
+.view-id-vista_tira_noticias .owl-pagination{
     margin-right: 8px;
 }
 
@@ -234,7 +237,7 @@ p.lead {
     margin-bottom: 40px;
 }
 /*vista servicios*/
-.views-field.views-field-field-banner{
+.panel-pane.pane-views.pane-vista-tira-banners.vista-servicios .views-field.views-field-field-banner{
     margin-bottom: 10px;
     margin-right: 30px;
     width: 265px;
