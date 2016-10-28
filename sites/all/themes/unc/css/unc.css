@@ -42,6 +42,23 @@ body{
 .logo-campus-virtual img{
     width: 215px;
 }
+
+@media (max-width: 767px) { /*Extra small devices */
+  .logo-campus-virtual {
+       left: 725px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) { /*Small devices Tablets */
+  .logo-campus-virtual {
+       left: 592px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {/*Medium devices */
+  .logo-campus-virtual {
+       left: 725px;
+  }
+}
+
 a.name.navbar-brand {
     position: absolute;
     top: 80px;
