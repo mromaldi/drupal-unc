@@ -270,6 +270,10 @@ p.lead {
     margin-bottom: 40px;
 }
 
+.banner-servicios {
+    margin-bottom: 10px;
+}
+
 /*---VISTA NOVEDADES-----*/
 .pane-vista-novedades h2{
     background-image: url("../images/faja-novedades.png");
@@ -324,7 +328,7 @@ p.lead {
 .view-id-vista_eventos .fecha-agenda {
     background-color: #9fd2f1;
     color: #ffffff;
-    width: 70px;
+    width: 67px;
     height: 50px;
     text-align: center;
     padding-top: 15px;
@@ -336,6 +340,7 @@ p.lead {
     background-color: #90278e;
 }
 
+/*
 .view-id-vista_eventos table {
     width: 100%;
 }
@@ -358,9 +363,17 @@ p.lead {
 .view-id-vista_eventos table td.col-1.col-first{
     border-right: 30px solid #ffffff;
 }
+*/
+.titulo-agenda:nth-child(odd){
+    padding-top: 16px;
+    background-color: #f5fafe;
+    padding-bottom: 16px;
+}
 
-.titulo-agenda {
-    padding-top: 15px;
+.titulo-agenda:nth-child(even){
+    padding-top: 16px;
+    background-color: #FFFFFF;
+    padding-bottom: 16px;
 }
 
 .titulo-agenda a{
@@ -394,8 +407,8 @@ p.lead {
     padding-bottom: 30px;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 15px;
-    margin-right: 20px;
+    padding-top: 10px;
+    margin-right: 30px;
 }
 
 /* ----------- FOOTER ---------------*/
@@ -416,7 +429,7 @@ p.lead {
 /*-----------MENU REDES SOCIALES--------*/
 .redes-sociales{
     position: fixed;
-    float: right;
+    right: 105px;
     overflow: hidden;
     top: 0;
 }
