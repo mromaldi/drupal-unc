@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:700);
 body{
     font-family: 'Lato', sans-serif;
     color: #222222;
@@ -92,22 +91,20 @@ p.lead {
 /*VISTA TIRA DE BANNERS*/
 
 #tira-banners{
-    height: 70px;
-    margin-bottom: 60px;
 }
-
 #tira-banners .view-vista-tira-banners {
 /*    margin-right: 70px;
     margin-left: 40px;*/
 }
-
-.owl-carousel-block_19 .owl-item {
-/*    width: 170px !important;
-    margin-left: 30px;*/
+div.owl-carousel-block_19 div.owl-wrapper div.owl-item {
+    margin: 0 15px;
+    width: 8.63333% !important;
+}
+div.owl-carousel-block_19 div.owl-wrapper:first-child {
+    margin-left: 0;
 }
     
-.owl-carousel-block_19 .owl-wrapper-outer{
-    /*position: absolute;*/
+.owl-carousel-block_19 .owl-wrapper-outer {
 }
 
 .owl-carousel-block_19 .owl-controls.clickable .owl-prev {
@@ -428,8 +425,14 @@ p.lead {
 
 /*-----------MENU REDES SOCIALES--------*/
 .redes-sociales{
-    position: fixed;
-    right: 105px;
+    position: absolute;
+    right: 19px;
     overflow: hidden;
-    top: 0;
+    top: 4px;
+    z-index: 99999;
+}
+.redes-sociales img {
+    margin-bottom: 4px;
+    width: 50px;
+    height: 50px;
 }

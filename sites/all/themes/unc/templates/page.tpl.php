@@ -111,9 +111,13 @@
         </nav>
       </div>
     <?php endif; */?>
-    <div id="logo-campus-virtual" class="logo-campus-virtual">
+    <div id="logo-campus-virtual" class="logo-campus-virtual hidden-sm hidden-xs visible-md visible-lg">
         <img src="<?php print $base_path.path_to_theme(); ?>/images/logo_cv.png" alt="unc" />
     </div>
+    <!-- EJEMPLO de como esconder un elemento en resoluciones grandes y mostrarlas en resoluciones pequeñas -->
+    <!--<div id="logo-campus-virtual-min" class="logo-campus-virtual-min hidden-md hidden-lg visible-xs visible-sm">
+        <img src="<?php print $base_path.path_to_theme(); ?>/images/logo_cv.png" alt="unc" />
+    </div>-->
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
     <?php endif; ?>
