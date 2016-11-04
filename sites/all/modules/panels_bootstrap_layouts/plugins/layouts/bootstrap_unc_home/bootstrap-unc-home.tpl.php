@@ -8,8 +8,10 @@
   <?php endif ?>
   <?php if ($content['tira_banner']): ?>
     <div class="row">
+      <div class="col-xs-12 col-md-12">
 
         <?php print $content['tira_banner']; ?>
+      </div>
     </div>
   <?php endif ?>
   <?php if ($content['tira_noticias']): ?>

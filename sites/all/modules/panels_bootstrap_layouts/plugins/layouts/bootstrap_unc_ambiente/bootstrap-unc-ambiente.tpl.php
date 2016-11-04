@@ -6,6 +6,13 @@
       </div>
     </div>
   <?php endif ?>
+  <?php if ($content['tira_banner']): ?>
+    <div class="row seba">
+      <div class="col-xs-10 col-xs-offset-1">
+        <?php print $content['tira_banner']; ?>
+      </div>
+    </div>
+  <?php endif ?>
   <?php if ($content['novedades'] || $content['videos']): ?>
     <div class="row">
       <div class="col-xs-12 col-md-6">
@@ -28,11 +35,5 @@
     </div>
   <?php endif ?>
 
-  <?php if ($content['tira_banner']): ?>
-    <div class="row seba">
-      <div class="col-xs-10 col-xs-offset-1">
-        <?php print $content['tira_banner']; ?>
-      </div>
-    </div>
-  <?php endif ?>
+
 </div>

@@ -91,24 +91,34 @@ p.lead {
 /*VISTA TIRA DE BANNERS*/
 
 #tira-banners{
+margin-bottom: 120px;
 }
+
 #tira-banners .view-vista-tira-banners {
-/*    margin-right: 70px;
-    margin-left: 40px;*/
+    margin-right: 70px;
+    margin-left: 40px;
 }
-div.owl-carousel-block_19 div.owl-wrapper div.owl-item {
-    margin: 0 15px;
-    width: 8.63333% !important;
-}
+
+
+/*
 div.owl-carousel-block_19 div.owl-wrapper:first-child {
     margin-left: 0;
 }
-    
-.owl-carousel-block_19 .owl-wrapper-outer {
+*/
+.owl-carousel-block_19 .owl-item {
+width: 200px !important;
+}
+
+.owl-carousel-block_19 .owl-wrapper {
+margin-left: 58px;
+}
+
+.owl-carousel-block_19 .owl-controls.clickable {
+margin-top: -70px;
 }
 
 .owl-carousel-block_19 .owl-controls.clickable .owl-prev {
-/*    float: left;
+    float: left;
     background-image: url("../images/izquierda.png");
     background-repeat: no-repeat;
     width: 70px;
@@ -116,17 +126,17 @@ div.owl-carousel-block_19 div.owl-wrapper:first-child {
     background-color: #ffffff;
     border-radius: 0;
     padding: 0;
-    margin-left: -40px;
+    margin-left: -15px;
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 0;
     opacity: 1;
     background-size: 37px 65px;
-    font-size: 1px;*/
+    font-size: 1px;
 }
 
 .owl-carousel-block_19 .owl-controls.clickable .owl-next {
-/*    float: right;
+    float: right;
     background-image: url("../images/derecha.png");
     background-repeat: no-repeat;
     width: 70px;
@@ -134,20 +144,21 @@ div.owl-carousel-block_19 div.owl-wrapper:first-child {
     background-color: #ffffff;
     border-radius: 0;
     padding: 0;
-    margin-right: -70px;
+    margin-right: -90px;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
     opacity: 1;
     background-size: 37px 65px;
-    font-size: 1px;*/
+    font-size: 1px;
 }
 
 .owl-carousel-block_19 .owl-theme .owl-controls {
-/*    margin-left: -70px;
-    margin-right: -70px;*/
+    margin-left: -70px;
+    margin-right: -70px;
 }
-.owl-item img {
+.owl-carousel-block_19 .owl-item img {
+width: 170px;
 }
 
 /*SLIDER*/
