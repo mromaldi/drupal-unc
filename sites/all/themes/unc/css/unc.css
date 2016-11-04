@@ -153,7 +153,7 @@ div.owl-carousel-block_19 div.owl-wrapper:first-child {
 /*SLIDER*/
 .field-content.unc-slider{
     position: absolute;
-    top: 234px;
+    top: 169px;
     background-color: #74bde9;
     padding-top: 32px;
     padding-bottom: 28px;
@@ -435,4 +435,60 @@ div.owl-carousel-block_19 div.owl-wrapper:first-child {
     margin-bottom: 4px;
     width: 50px;
     height: 50px;
+}
+
+/*----------PERFILES------------*/
+/*margen comun para todos los perfiles*/
+.view.view-vista-cintas-desplegables.view-id-vista_cintas_desplegables.view-display-id-default{
+    margin-bottom: 37px;
+}
+
+/*estudiantes = term 1*/
+.page-taxonomy-term-1 h1.page-header{
+    background-position-x: 95px;
+    background-position-y: 15px;
+    background-color:rgba(173, 36, 43,0.1);/*#AD242B con 10% de opacidad*/
+    background-image:url(../images/perfil_estudiantes.png);
+    background-repeat:no-repeat;
+    background-size:232px 31px;
+    text-indent:-9999px;
+    height:60px;
+}
+
+.page-taxonomy-term-1 .field-content.unc-slider {
+    background-color:rgba(173, 36, 43,0.9);/*#AD242B con 10% de opacidad*/
+    background-image: url(../images/cv-titulo.svg);
+}
+
+.page-taxonomy-term-1 .field-content.unc-slider a {
+    color:#ffffff;
+}
+
+.page-taxonomy-term-1 .pane-vista-cintas-desplegables .panel-default .panel-heading {
+    background-color:rgba(173, 36, 43,0.1);/*#AD242B con 10% de opacidad*/
+    height:43px;
+    border:0px solid;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+
+.page-taxonomy-term-1 .pane-vista-cintas-desplegables .panel-group .panel{
+    border-radius: 0;
+    border: 0px solid;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-1 .flex-control-paging li a.flex-active {
+    background: rgba(173, 36, 43,0.1); /*#AD242B con 10% de opacidad*/
+}
+.page-taxonomy-term-1 .flex-control-paging li a:hover{
+    background: rgba(173, 36, 43,0.1); /*#AD242B con 10% de opacidad*/
+}
+.page-taxonomy-term-1 .flex-control-paging li a{
+    background: #BEBDBE;
+    width: 10px;
+    height: 10px;
 }
