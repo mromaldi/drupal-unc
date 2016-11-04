@@ -10,7 +10,7 @@ $cols=array_chunk($rows,$item_x_col);
 $key=0;
 foreach ($cols as $key1 => $rows2){
     echo "<div class=\"col col-lg-4\">";
-    
+
     foreach ($rows2 as $key2 => $row): ?>
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -32,11 +32,10 @@ foreach ($cols as $key1 => $rows2){
         </div>
       </div>
     </div>
-  <?php unset($row); endforeach ?>
+  <?php $key++; unset($row); endforeach ?>
 
 
 <?php
-    $key++;
     unset($row2);
     echo "</div>";
 }
