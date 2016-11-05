@@ -8,7 +8,11 @@
   float: left;
   position: relative;
   margin-left: 1%;
+  margin-bottom: 1%;
 }
+.panels-dnd .bootstrap-unc-ambiente #panel-region-links_administrativos {width: 48.0%;}
+.panels-dnd .bootstrap-unc-ambiente #panel-region-gente_grupo {width: 48.0%;}
+
 .panels-dnd .bootstrap-unc-ambiente #panel-region-slider_noticias {width: 98.0%;}
 
 .panels-dnd .bootstrap-unc-ambiente #panel-region-tira_banner {width: 98.0%;}
