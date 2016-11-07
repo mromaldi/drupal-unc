@@ -28,7 +28,7 @@
 
   <?php if ($content['tira_banners']): ?>
     <div class="row">
-      <div class="col-xs-12 col-md-12">
+      <div class="col-xs-10 col-md-10 col-md-offset-1">
         <?php print $content['tira_banners']; ?>
       </div>
     </div>

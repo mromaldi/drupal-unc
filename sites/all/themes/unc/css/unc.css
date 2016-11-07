@@ -169,7 +169,7 @@ div.owl-carousel-block_19 div.owl-wrapper:first-child {
     background-size: 52px 42px;
     background-position-y: 32px;
     background-position-x: 18px;
-    width: 400px;
+    width: 500px;
 }
 .field-content.unc-slider a{
     color:#0C3C6D;
@@ -453,6 +453,7 @@ div.owl-carousel-block_19 div.owl-wrapper:first-child {
     background-size:232px 31px;
     text-indent:-9999px;
     height:60px;
+    margin-bottom: 10px;
 }
 
 .page-taxonomy-term-1 .field-content.unc-slider {
