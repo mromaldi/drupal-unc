@@ -504,3 +504,23 @@ width: 170px;
     width: 10px;
     height: 10px;
 }
+
+.page-taxonomy-term-1 .view-id-vista_novedades li.views-row{
+    background-color: #dddcdc;
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-taxonomy-term-1 .view-id-vista_novedades li.views-row:hover {
+    background-color: rgba(173, 36, 43,0.1);/*#AD242B con 10% de opacidad*/;
+}
+
+.page-taxonomy-term-1 .view-id-vista_novedades li.views-row a{
+    width: 100%;
+}
+
+.page-taxonomy-term-1 .view-id-vista_novedades li.views-row a:hover{
+    color:#AD242B;
+    
+}
