@@ -17,8 +17,8 @@
     </div>
   <?php endif ?>
   <?php if ($content['tira_banner']): ?>
-    <div class="row seba">
-      <div class="col-xs-10 col-xs-offset-1">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
         <?php print $content['tira_banner']; ?>
       </div>
     </div>

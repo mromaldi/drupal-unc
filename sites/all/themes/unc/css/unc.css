@@ -283,7 +283,7 @@ width: 170px;
 }
 
 /*---VISTA NOVEDADES-----*/
-.pane-vista-novedades h2{
+.bootstrap-unc-home .pane-vista-novedades h2{
     background-image: url("../images/faja-novedades.png");
     background-repeat: no-repeat;
     background-size: 193px 40px;
@@ -524,3 +524,97 @@ width: 170px;
     color:#AD242B;
     
 }
+
+/* VISTA AMBIENTE INTERNACIONALES*/
+
+/*SLIDER NOTICIAS*/
+.page-node-21 .pane-vista-slider-noticias h2{
+background-image: url("../images/internacionales-nombre.png");
+background-repeat: no-repeat;
+background-size: 410px 80px;
+text-indent: -9000px;
+height: 80px;
+background-position-x: 115px;
+margin-bottom: 15px;
+/*el color es #0071b4*/
+background-color: rgba(0, 113, 180,0.15);
+background-position-y: 5px;
+}
+
+
+/*TIRA DE BANNERS*/
+.page-node-21 .pane-vista-tira-banners{
+margin-bottom: 50px;
+margin-top: 20px;
+}
+
+
+/*VISTA NOVEVDADES*/
+.page-node-21 .pane-vista-novedades h2{
+    background-image: url("../images/actividades_y_destacados.png");
+    background-repeat: no-repeat;
+    background-size: 284px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 100px;
+    margin-bottom: 30px;
+}
+
+.page-node-21 .view-id-vista_novedades ul {
+    padding-left: 0px;
+}
+
+.page-node-21 .view-id-vista_novedades li {
+    background-color: rgba(0, 113, 180,0.1);
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-node-21 .view-id-vista_novedades li a {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #222222;
+}
+
+.page-node-21 .view-id-vista_novedades li:hover {
+    background-color: rgba(0, 113, 180,0.2);
+}
+
+.page-node-21 .view-id-vista_novedades li a:hover {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #0071b4;
+    text-decoration: none;
+}
+
+
+/*VISTA VIDEOS*/
+.page-node-21 .pane-vista-videos .view-id-vista_videos{
+    margin-top: 88px;
+}
+
+/* VISTA MULTIMEDIA*/
+.page-node-21 .pane-vista-multimedia-ambiente{
+margin-top: 55px;
+}
+
+
+/*VISTA CONTACTO*/
+.page-node-21 .pane-vista-contacto-ambiente{
+margin-top: 55px;
+}
+
+.page-node-21 .pane-vista-contacto-ambiente h2{
+    background-image: url("../images/contacto-internacionales.png");
+    background-repeat: no-repeat;
+    background-size: 148px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 13px;
+    margin-bottom: 30px;
+}
+
+
+
+/*FIN AMBIENTE*/
