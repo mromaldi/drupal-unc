@@ -600,6 +600,18 @@ margin-top: 55px;
 }
 
 
+/*VISTA AGENDA*/
+.page-node-21 .pane-vista-eventos{
+margin-top: 55px;
+}
+
+.page-node-21 .titulo-agenda:nth-child(odd) {
+    padding-top: 16px;
+    background-color: #f5fafe;
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+
 /*VISTA CONTACTO*/
 .page-node-21 .pane-vista-contacto-ambiente{
 margin-top: 55px;
