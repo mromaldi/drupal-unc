@@ -1,0 +1,17 @@
+/*
+ * ==========================================================
+ * Grid
+ * ==========================================================
+ */
+.panels-dnd .panel-region {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 1%;
+}
+.panels-dnd .bootstrap-unc-agenda #panel-region-slider_eventos {width: 98.0%;}
+.panels-dnd .bootstrap-unc-agenda #panel-region-eventos_destacados2 {width: 48.0%;}
+.panels-dnd .bootstrap-unc-agenda #panel-region-calendar{width: 48.0%;}
+
+.panels-dnd .bootstrap-unc-agenda #panel-region-eventos_agrupados {width: 98.0%;}
+
