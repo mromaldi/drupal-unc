@@ -77,8 +77,8 @@ p.lead {
     margin-left: 30px;
 }
 /* ---------  MENU  --------- */
-/*
-#block-menu-menu-men-perfiles ul.menu.nav li{
+
+/*#block-menu-menu-men-perfiles ul.menu.nav li{
     display:inline;
     float:left;
 }
@@ -94,10 +94,16 @@ p.lead {
     display:inline;
     float:left;
 }
-
+*/
 .panel-separator {
     clear: both;
-}*/
+}
+
+.pane-menu-menu-men-perfiles li.leaf {
+    float: left;
+    display: inline;
+}
+
 .menu-name-menu-menu-ambientes li {
     float: left;
 }
