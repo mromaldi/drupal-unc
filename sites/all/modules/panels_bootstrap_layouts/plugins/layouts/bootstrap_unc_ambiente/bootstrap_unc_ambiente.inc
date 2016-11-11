@@ -11,6 +11,7 @@ $plugin = array(
   'theme' => 'bootstrap_unc_ambiente',
   'admin css' => 'panels-bootstrap-layouts-admin-unc.css',
   'regions' => array(
+    'menus' => t('menus'),
     'links_administrativos' => t('Links de Creación'),
     'gente_grupo' => t('Gente en el Grupo'),
     'slider_noticias' => t('Slider Noticias'),

@@ -77,7 +77,7 @@ p.lead {
     margin-left: 30px;
 }
 /* ---------  MENU  --------- */
-
+/*
 #block-menu-menu-men-perfiles ul.menu.nav li{
     display:inline;
     float:left;
@@ -85,6 +85,23 @@ p.lead {
 #panel-menu-superior ul.menu.nav li{
     float:left;
 }
+
+.pane-menu-menu-men-perfiles ul.menu.nav li{
+    display:inline;
+    float:left;
+}
+.pane-menu-menu-menu-ambientes ul.menu.nav li{
+    display:inline;
+    float:left;
+}
+
+.panel-separator {
+    clear: both;
+}*/
+.menu-name-menu-menu-ambientes li {
+    float: left;
+}
+
 
 /* ---------  PANEL HOME ----------- */
 
@@ -469,7 +486,7 @@ width: 170px;
 
 .page-taxonomy-term-1 .field-content.unc-slider {
     background-color:rgba(173, 36, 43,0.9);/*#AD242B con 10% de opacidad*/
-    background-image: url(../images/cv-titulo.svg);
+    background-image: url("../images/cv-titulo.svg");
 }
 
 .page-taxonomy-term-1 .field-content.unc-slider a {
@@ -618,3 +635,30 @@ margin-top: 55px;
 
 
 /*FIN AMBIENTE*/
+
+/* --------------- AMBIENTE AGENDA -------------- */
+
+.titulo-agenda-slider {
+    position: absolute;
+    top: 169px;
+    background-color: rgba(195, 13, 39, 0.8); /* color #C30D27 opacidad 0,8*/
+    padding-top: 32px;
+    padding-bottom: 28px;
+    padding-right: 24px;
+    padding-left: 84px;
+    font-weight: bold;
+    font-size: 26px;
+    color: #ffffff;
+    background-image: url(../images/icono_titular.png);
+    background-repeat: no-repeat;
+    background-size: 52px 42px;
+    background-position-y: 32px;
+    background-position-x: 18px;
+    width: 500px;
+}
+
+.titulo-agenda-slider a{
+    color:#ffffff;
+    text-decoration: none;
+}
+/* ----------------FIN AMBIENTE AGENDA ...........*/
