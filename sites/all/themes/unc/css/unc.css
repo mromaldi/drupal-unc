@@ -4,6 +4,7 @@ body{
     font-size: 13px;
 }
 /* ---------  HEADER ---------  */
+
 .navbar{
     height:211px;
     background-color: #9fd2f1;
@@ -17,6 +18,7 @@ body{
     border-top-left-radius:0px;
     border-top-right-radius: 0px;
     border:0 solid #9fd2f1;
+    margin-bottom:10px;
 }
 .logo{
     padding: 0;
@@ -56,6 +58,11 @@ body{
   .logo-campus-virtual {
        left: 725px;
   }
+}
+
+.breadcrumb {
+    position:absolute;
+    background-color:inherit;
 }
 
 a.name.navbar-brand {
@@ -106,6 +113,119 @@ p.lead {
 
 .menu-name-menu-menu-ambientes li {
     float: left;
+}
+
+/*ul#superfish-3{
+    margin-left: 215px;
+}*/
+
+.sf-menu-men-perfiles li> a{
+    color:#0c3c6d;
+    padding: 5px 5px 5px 0;
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+    margin-right:30px;
+    height:30px;
+}
+.sf-menu-men-perfiles li> a:hover{
+    text-decoration:none;
+}
+
+a.link-ingresantes{
+    border-bottom-color:#a7550e;
+}
+a.link-estudiantes{
+    border-bottom-color:#ae2327;
+}
+a.link-docentesi{
+    border-bottom-color:#156890;
+}
+a.link-nodocentes{
+    border-bottom-color:#2c8656;
+}
+a.link-graduados{
+    border-bottom-color:#00675e;
+}
+a.link-extranjeros{
+    border-bottom-color:#99194f;
+}
+a.link-comunidad{
+    border-bottom-color:#5b3571;
+}
+
+/*MENU AMBIENTES 1ER NIVEL*/
+.sf-menu-menu-ambientes li{
+    margin:5px 0 5px 0 !important;
+    height:30px;
+}
+
+.sf-menu-menu-ambientes li> a{
+    text-decoration:none;
+    color:#8d9092;
+    padding: 5px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #8d9092;
+}
+
+.sf-menu-menu-ambientes li.first a {
+    padding-left: 0;
+}
+
+.sf-menu-menu-ambientes li.last a {
+    border-right-width: 0;
+}
+
+a.link-internacionales.sf-depth-1.active{
+    background-color:#0071b4;
+    color: #ffffff;
+}
+a.link-sobre-unc.sf-depth-1.active{
+    background-color:#094469;
+    color: #ffffff;
+}
+a.link-academicas.sf-depth-1.active{
+    background-color:#c47629;
+    color: #ffffff;
+}
+a.link-secyt.sf-depth-1.active{
+    background-color:#00758b;
+    color: #ffffff;
+}
+a.link-extension.sf-depth-1.active{
+    background-color:#801646;
+    color: #ffffff;
+}
+a.link-vida-estudiantil.sf-depth-1.active{
+    background-color:#a41d34;
+    color: #ffffff;
+}
+a.link-gestion.sf-depth-1.active{
+    background-color:#3a612c;
+    color: #ffffff;
+}
+a.link-planificacion.sf-depth-1.active{
+    background-color:#3a612c;
+    color: #ffffff;
+}
+
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul{
+    background-image:none;
+    background-color:#ffffff;
+}
+
+/*2DO NIVEL */
+.menu-ambiente-2nivel li> a{
+    border-right-width: 0;
+}
+
+.menu-ambiente-2nivel li.menuparent a:hover{
+    background-color:#0071b4;
+    color:#ffffff;
+}
+
+.sf-menu ul {
+    background-color: white;
 }
 
 
@@ -514,7 +634,7 @@ width: 170px;
 
 .page-taxonomy-term-1 .field-content.unc-slider {
     background-color:rgba(173, 36, 43,0.9);/*#AD242B con 10% de opacidad*/
-    background-image: url("../images/cv-titulo.svg");
+    background-image: url("../images/titular_blanco.png");
 }
 
 .page-taxonomy-term-1 .field-content.unc-slider a {
@@ -585,7 +705,7 @@ width: 170px;
 
 .page-taxonomy-term-7 .field-content.unc-slider {
     background-color:rgba(167, 85, 14,0.9);/*#a7550e con 10% de opacidad*/
-    background-image: url("../images/cv-titulo.svg");
+    background-image: url("../images/titular_blanco.png");
 }
 
 .page-taxonomy-term-7 .field-content.unc-slider a {
@@ -638,7 +758,426 @@ width: 170px;
 
 .page-taxonomy-term-7 .view-id-vista_novedades li.views-row a:hover{
     color:#a7550e;
-    
+}
+
+/*docentes e investigadores = term 4*/
+.page-taxonomy-term-4 h1.page-header-perfil{
+    background-position-x: 95px;
+    background-position-y: 15px;
+    background-color:rgba(21, 104, 144,0.1);/*#156890 con 10% de opacidad*/
+    background-image:url(../images/perfil_docentesi.png);
+    background-repeat:no-repeat;
+    background-size:437px 45px;
+    text-indent:-9999px;
+    height:60px;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-4 .field-content.unc-slider {
+    background-color:rgba(21, 104, 144,0.9); /*#156890 con 10% de opacidad*/
+    background-image: url("../images/titular_blanco.png");
+}
+
+.page-taxonomy-term-4 .field-content.unc-slider a {
+    color:#ffffff;
+}
+
+.page-taxonomy-term-4 .pane-vista-cintas-desplegables .panel-default .panel-heading {
+    background-color:rgba(21, 104, 144,0.1);/*#156890 con 10% de opacidad*/
+    height:43px;
+    border:0px solid;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+
+.page-taxonomy-term-4 .pane-vista-cintas-desplegables .panel-group .panel{
+    border-radius: 0;
+    border: 0px solid;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-4 .flex-control-paging li a.flex-active {
+    background: rgba(21, 104, 144,0.1); /*#156890 con 10% de opacidad*/
+}
+.page-taxonomy-term-4 .flex-control-paging li a:hover{
+    background: rgba(21, 104, 144,0.1); /*#156890 con 10% de opacidad*/
+}
+.page-taxonomy-term-4 .flex-control-paging li a{
+    background: #BEBDBE;
+    width: 10px;
+    height: 10px;
+}
+
+.page-taxonomy-term-4 .view-id-vista_novedades li.views-row{
+    background-color: #dddcdc;
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-taxonomy-term-4 .view-id-vista_novedades li.views-row:hover {
+    background-color: rgba(21, 104, 144,0.1);/*#156890 con 10% de opacidad*/;
+}
+
+.page-taxonomy-term-4 .view-id-vista_novedades li.views-row a{
+    width: 100%;
+}
+
+.page-taxonomy-term-4 .view-id-vista_novedades li.views-row a:hover{
+    color:#156890;
+}
+
+/* = term 4*/
+.page-taxonomy-term-4 h1.page-header-perfil{
+    background-position-x: 95px;
+    background-position-y: 15px;
+    background-color:rgba(21, 104, 144,0.1);/*#156890 con 10% de opacidad*/
+    background-image:url(../images/perfil_docentesi.png);
+    background-repeat:no-repeat;
+    background-size:437px 45px;
+    text-indent:-9999px;
+    height:60px;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-4 .field-content.unc-slider {
+    background-color:rgba(21, 104, 144,0.9); /*#156890 con 10% de opacidad*/
+    background-image: url("../images/titular_blanco.png");
+}
+
+.page-taxonomy-term-4 .field-content.unc-slider a {
+    color:#ffffff;
+}
+
+.page-taxonomy-term-4 .pane-vista-cintas-desplegables .panel-default .panel-heading {
+    background-color:rgba(21, 104, 144,0.1);/*#156890 con 10% de opacidad*/
+    height:43px;
+    border:0px solid;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+
+.page-taxonomy-term-4 .pane-vista-cintas-desplegables .panel-group .panel{
+    border-radius: 0;
+    border: 0px solid;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-4 .flex-control-paging li a.flex-active {
+    background: rgba(21, 104, 144,0.1); /*#156890 con 10% de opacidad*/
+}
+.page-taxonomy-term-4 .flex-control-paging li a:hover{
+    background: rgba(21, 104, 144,0.1); /*#156890 con 10% de opacidad*/
+}
+.page-taxonomy-term-4 .flex-control-paging li a{
+    background: #BEBDBE;
+    width: 10px;
+    height: 10px;
+}
+
+.page-taxonomy-term-4 .view-id-vista_novedades li.views-row{
+    background-color: #dddcdc;
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-taxonomy-term-4 .view-id-vista_novedades li.views-row:hover {
+    background-color: rgba(21, 104, 144,0.1);/*#156890 con 10% de opacidad*/;
+}
+
+.page-taxonomy-term-4 .view-id-vista_novedades li.views-row a{
+    width: 100%;
+}
+
+.page-taxonomy-term-4 .view-id-vista_novedades li.views-row a:hover{
+    color:#156890;
+}
+
+/*nodocentes = term 5*/
+.page-taxonomy-term-5 h1.page-header-perfil{
+    background-position-x: 95px;
+    background-position-y: 15px;
+    background-color:rgba(44, 134, 86,0.1);/*#2c8656 con 10% de opacidad*/
+    background-image:url(../images/perfil_nodocentes.png);
+    background-repeat:no-repeat;
+    background-size:437px 45px;
+    text-indent:-9999px;
+    height:60px;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-5 .field-content.unc-slider {
+    background-color:rgba(44, 134, 86,0.9); /*#2c8656 con 10% de opacidad*/
+    background-image: url("../images/titular_blanco.png");
+}
+
+.page-taxonomy-term-5 .field-content.unc-slider a {
+    color:#ffffff;
+}
+
+.page-taxonomy-term-5 .pane-vista-cintas-desplegables .panel-default .panel-heading {
+    background-color:rgba(44, 134, 86,0.1);/*#2c8656 con 10% de opacidad*/
+    height:43px;
+    border:0px solid;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+
+.page-taxonomy-term-5 .pane-vista-cintas-desplegables .panel-group .panel{
+    border-radius: 0;
+    border: 0px solid;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-5 .flex-control-paging li a.flex-active {
+    background: rgba(44, 134, 86,0.1); /*#2c8656 con 10% de opacidad*/
+}
+.page-taxonomy-term-5 .flex-control-paging li a:hover{
+    background: rgba(44, 134, 86,0.1); /*#2c8656 con 10% de opacidad*/
+}
+.page-taxonomy-term-5 .flex-control-paging li a{
+    background: #BEBDBE;
+    width: 10px;
+    height: 10px;
+}
+
+.page-taxonomy-term-5 .view-id-vista_novedades li.views-row{
+    background-color: #dddcdc;
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-taxonomy-term-5 .view-id-vista_novedades li.views-row:hover {
+    background-color: rgba(44, 134, 86,0.1);/*#2c8656 con 10% de opacidad*/;
+}
+
+.page-taxonomy-term-5 .view-id-vista_novedades li.views-row a{
+    width: 100%;
+}
+
+.page-taxonomy-term-5 .view-id-vista_novedades li.views-row a:hover{
+    color:#2c8656;
+}
+
+/*graduados = term 6*/
+.page-taxonomy-term-6 h1.page-header-perfil{
+    background-position-x: 95px;
+    background-position-y: 15px;
+    background-color:rgba(0, 103, 94,0.1);/*#00675e con 10% de opacidad*/
+    background-image:url(../images/perfil_graduados.png);
+    background-repeat:no-repeat;
+    background-size:437px 45px;
+    text-indent:-9999px;
+    height:60px;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-6 .field-content.unc-slider {
+    background-color:rgba(0, 103, 94,0.9); /*#00675e con 10% de opacidad*/
+    background-image: url("../images/titular_blanco.png");
+}
+
+.page-taxonomy-term-6 .field-content.unc-slider a {
+    color:#ffffff;
+}
+
+.page-taxonomy-term-6 .pane-vista-cintas-desplegables .panel-default .panel-heading {
+    background-color:rgba(0, 103, 94,0.1);/*00675e con 10% de opacidad*/
+    height:43px;
+    border:0px solid;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+
+.page-taxonomy-term-6 .pane-vista-cintas-desplegables .panel-group .panel{
+    border-radius: 0;
+    border: 0px solid;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-6 .flex-control-paging li a.flex-active {
+    background: rgba(0, 103, 94,0.1); /*#00675e con 10% de opacidad*/
+}
+.page-taxonomy-term-6 .flex-control-paging li a:hover{
+    background: rgba(0, 103, 94,0.1); /*#00675e con 10% de opacidad*/
+}
+.page-taxonomy-term-6 .flex-control-paging li a{
+    background: #BEBDBE;
+    width: 10px;
+    height: 10px;
+}
+
+.page-taxonomy-term-6 .view-id-vista_novedades li.views-row{
+    background-color: #dddcdc;
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-taxonomy-term-6 .view-id-vista_novedades li.views-row:hover {
+    background-color: rgba(0, 103, 94,0.1);/*#2c8656 con 10% de opacidad*/;
+}
+
+.page-taxonomy-term-6 .view-id-vista_novedades li.views-row a{
+    width: 100%;
+}
+
+.page-taxonomy-term-6 .view-id-vista_novedades li.views-row a:hover{
+    color:#00675e;
+}
+
+/*extranjeros = term 8*/
+.page-taxonomy-term-8 h1.page-header-perfil{
+    background-position-x: 95px;
+    background-position-y: 15px;
+    background-color:rgba(153, 25, 79,0.1);/*#99194f con 10% de opacidad*/
+    background-image:url(../images/perfil_extranjeros.png);
+    background-repeat:no-repeat;
+    background-size:437px 45px;
+    text-indent:-9999px;
+    height:60px;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-8 .field-content.unc-slider {
+    background-color:rgba(153, 25, 79,0.9); /*#99194f con 10% de opacidad*/
+    background-image: url("../images/titular_blanco.png");
+}
+
+.page-taxonomy-term-8 .field-content.unc-slider a {
+    color:#ffffff;
+}
+
+.page-taxonomy-term-8 .pane-vista-cintas-desplegables .panel-default .panel-heading {
+    background-color:rgba(153, 25, 79,0.1);/*99194f con 10% de opacidad*/
+    height:43px;
+    border:0px solid;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+
+.page-taxonomy-term-8 .pane-vista-cintas-desplegables .panel-group .panel{
+    border-radius: 0;
+    border: 0px solid;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-8 .flex-control-paging li a.flex-active {
+    background: rgba(153, 25, 79,0.1); /*#99194f con 10% de opacidad*/
+}
+.page-taxonomy-term-8 .flex-control-paging li a:hover{
+    background: rgba(153, 25, 79,0.1); /*#00675e con 10% de opacidad*/
+}
+.page-taxonomy-term-8 .flex-control-paging li a{
+    background: #BEBDBE;
+    width: 10px;
+    height: 10px;
+}
+
+.page-taxonomy-term-8 .view-id-vista_novedades li.views-row{
+    background-color: #dddcdc;
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-taxonomy-term-8 .view-id-vista_novedades li.views-row:hover {
+    background-color: rgba(153, 25, 79,0.1);/*#2c8656 con 10% de opacidad*/;
+}
+
+.page-taxonomy-term-8 .view-id-vista_novedades li.views-row a{
+    width: 100%;
+}
+
+.page-taxonomy-term-8 .view-id-vista_novedades li.views-row a:hover{
+    color:#99194f;
+}
+
+/*comunidad = term 9*/
+.page-taxonomy-term-9 h1.page-header-perfil{
+    background-position-x: 95px;
+    background-position-y: 15px;
+    background-color:rgba(91, 53, 113,0.1);/*#5b3571 con 10% de opacidad*/
+    background-image:url(../images/perfil_comunidad.png);
+    background-repeat:no-repeat;
+    background-size:437px 45px;
+    text-indent:-9999px;
+    height:60px;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-9 .field-content.unc-slider {
+    background-color:rgba(91, 53, 113,0.9); /*#5b3571 con 10% de opacidad*/
+    background-image: url("../images/titular_blanco.png");
+}
+
+.page-taxonomy-term-9 .field-content.unc-slider a {
+    color:#ffffff;
+}
+
+.page-taxonomy-term-9 .pane-vista-cintas-desplegables .panel-default .panel-heading {
+    background-color:rgba(91, 53, 113,0.1);/*5b3571 con 10% de opacidad*/
+    height:43px;
+    border:0px solid;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+
+.page-taxonomy-term-9 .pane-vista-cintas-desplegables .panel-group .panel{
+    border-radius: 0;
+    border: 0px solid;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.page-taxonomy-term-9 .flex-control-paging li a.flex-active {
+    background: rgba(91, 53, 113,0.1); /*#00675e con 10% de opacidad*/
+}
+.page-taxonomy-term-9 .flex-control-paging li a:hover{
+    background: rgba(91, 53, 113,0.1); /*#00675e con 10% de opacidad*/
+}
+.page-taxonomy-term-9 .flex-control-paging li a{
+    background: #BEBDBE;
+    width: 10px;
+    height: 10px;
+}
+
+.page-taxonomy-term-9 .view-id-vista_novedades li.views-row{
+    background-color: #dddcdc;
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-taxonomy-term-9 .view-id-vista_novedades li.views-row:hover {
+    background-color: rgba(91, 53, 113,0.1);/*#5b3571 con 10% de opacidad*/;
+}
+
+.page-taxonomy-term-9 .view-id-vista_novedades li.views-row a{
+    width: 100%;
+}
+
+.page-taxonomy-term-9 .view-id-vista_novedades li.views-row a:hover{
+    color:#5b3571;
 }
 
 /*****************************************************/
