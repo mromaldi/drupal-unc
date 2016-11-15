@@ -1,0 +1,17 @@
+/*
+ * ==========================================================
+ * Grid
+ * ==========================================================
+ */
+.panels-dnd .panel-region {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 1%;
+}
+.panels-dnd .bootstrap-unc-nodos #panel-region-top {width: 98.0%;}
+.panels-dnd .bootstrap-unc-nodos #panel-region-sidebarleft {width: 48.0%;}
+.panels-dnd .bootstrap-unc-nodos #panel-region-contentr{width: 48.0%;}
+
+.panels-dnd .bootstrap-unc-nodos #panel-region-bottom {width: 98.0%;}
+

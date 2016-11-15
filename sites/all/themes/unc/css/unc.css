@@ -154,6 +154,13 @@ a.link-comunidad{
 }
 
 /*MENU AMBIENTES 1ER NIVEL*/
+
+/*no-link*/
+.sf-menu-menu-ambientes li > span{
+    color: #8d9092;
+    padding: 5px;
+}
+
 .sf-menu-menu-ambientes li{
     margin:5px 0 5px 0 !important;
     height:30px;
@@ -220,6 +227,11 @@ a.link-planificacion.sf-depth-1.active{
 }
 
 .menu-ambiente-2nivel li.menuparent a:hover{
+    background-color:#0071b4;
+    color:#ffffff;
+}
+
+.menu-ambiente-2nivel li.menuparent span:hover{
     background-color:#0071b4;
     color:#ffffff;
 }
@@ -612,6 +624,9 @@ width: 170px;
     display:none;
 }
 .page-taxonomy-term-5 h1.page-header{/*nodocentes*/
+    display:none;
+}
+.page-node h1.page-header{/*todos los nodos.. estan panelizados*/
     display:none;
 }
 
