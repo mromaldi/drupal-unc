@@ -594,7 +594,7 @@ width: 170px;
     position: absolute;
     right: 19px;
     overflow: hidden;
-    top: 4px;
+    top: 74px;
     z-index: 99999;
 }
 .redes-sociales img {
@@ -626,7 +626,19 @@ width: 170px;
 .page-taxonomy-term-5 h1.page-header{/*nodocentes*/
     display:none;
 }
-.page-node h1.page-header{/*todos los nodos.. estan panelizados*/
+.node-type-page h1.page-header{/*nodos panelizados*/
+    display:none;
+}
+
+.node-type-noticia h1.page-header{/*nodos panelizados*/
+    display:none;
+}
+
+.node-type-evento h1.page-header{/*nodos panelizados*/
+    display:none;
+}
+
+.node-type-convocatoria h1.page-header{/*nodos panelizados*/
     display:none;
 }
 
@@ -1213,6 +1225,15 @@ background-color: rgba(0, 113, 180,0.15);
 background-position-y: 5px;
 }
 
+/*MENU REDES SOCIALES*/
+.page-node-21 .redes-sociales{
+    position: absolute;
+    right: 19px;
+    overflow: hidden;
+    top: 119px;
+    z-index: 99999;
+}
+
 
 /*TIRA DE BANNERS*/
 .page-node-21 .pane-vista-tira-banners{
@@ -1339,6 +1360,16 @@ background-image: url("../images/icono_titular.png");
 color: #FFFFFF;
 }
 
+
+/*MENU REDES SOCIALES*/
+.page-node-18 .redes-sociales{
+    position: absolute;
+    right: 19px;
+    overflow: hidden;
+    top: 119px;
+    z-index: 99999;
+}
+
 /*TIRA DE BANNERS*/
 .page-node-18 .pane-vista-tira-banners{
 margin-bottom: 50px;
@@ -1454,6 +1485,15 @@ background-image: url("../images/icono_titular.png");
 
 .page-node-19 .field-content.unc-slider a {
 color: #FFFFFF;
+}
+
+/*MENU REDES SOCIALES*/
+.page-node-19 .redes-sociales{
+    position: absolute;
+    right: 19px;
+    overflow: hidden;
+    top: 119px;
+    z-index: 99999;
 }
 
 /*TIRA DE BANNERS*/
@@ -1573,6 +1613,15 @@ background-image: url("../images/icono_titular.png");
 color: #FFFFFF;
 }
 
+/*MENU REDES SOCIALES*/
+.page-node-16 .redes-sociales{
+    position: absolute;
+    right: 19px;
+    overflow: hidden;
+    top: 119px;
+    z-index: 99999;
+}
+
 /*TIRA DE BANNERS*/
 .page-node-16 .pane-vista-tira-banners{
 margin-bottom: 50px;
@@ -1662,6 +1711,133 @@ margin-top: 55px;
 
 /*FIN AMBIENTE*/
 
+
+/*****************************************************/
+/********* VISTA AMBIENTE ACADEMICAS ************/
+/*****************************************************/
+
+/*SLIDER NOTICIAS*/
+.page-node-15 .pane-vista-slider-noticias h2{
+background-image: url("../images/ambiente-cyt-nombre.png");
+background-repeat: no-repeat;
+background-size: 352px 80px;
+text-indent: -9000px;
+height: 80px;
+background-position-x: 115px;
+margin-bottom: 15px;
+/*el color es #af6627*/
+background-color: rgba(175, 102, 39,0.15);
+background-position-y: 5px;
+}
+
+.page-node-15 .field-content.unc-slider{
+background-color: rgba(175, 102, 39,0.8);
+background-image: url("../images/icono_titular.png");
+}
+
+.page-node-15 .field-content.unc-slider a {
+color: #FFFFFF;
+}
+
+/*MENU REDES SOCIALES*/
+.page-node-15 .redes-sociales{
+    position: absolute;
+    right: 19px;
+    overflow: hidden;
+    top: 119px;
+    z-index: 99999;
+}
+
+/*TIRA DE BANNERS*/
+.page-node-15 .pane-vista-tira-banners{
+margin-bottom: 50px;
+margin-top: 20px;
+}
+
+
+/*VISTA NOVEVDADES*/
+.page-node-15 .pane-vista-novedades h2{
+    background-image: url("../images/ambiente-cyt-ultimas-noticias.png");
+    background-repeat: no-repeat;
+    background-size: 284px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 100px;
+    margin-bottom: 30px;
+}
+
+.page-node-15 .view-id-vista_novedades ul {
+    padding-left: 0px;
+}
+
+.page-node-15 .view-id-vista_novedades li {
+    background-color: rgba(175, 102, 39,0.1);
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-node-15 .view-id-vista_novedades li a {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #222222;
+}
+
+.page-node-15 .view-id-vista_novedades li:hover {
+    background-color: rgba(175, 102, 39,0.2);
+}
+
+.page-node-15 .view-id-vista_novedades li a:hover {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #af6627;
+    text-decoration: none;
+}
+
+
+/*VISTA VIDEOS*/
+.page-node-15 .pane-vista-videos .view-id-vista_videos{
+    margin-top: 88px;
+}
+
+/* VISTA MULTIMEDIA*/
+.page-node-15 .pane-vista-multimedia-ambiente{
+margin-top: 55px;
+}
+
+
+/*VISTA AGENDA*/
+.page-node-15 .pane-vista-eventos{
+margin-top: 55px;
+}
+
+.page-node-15 .titulo-agenda:nth-child(odd) {
+    padding-top: 16px;
+    background-color: rgba(175, 102, 39,,0.1);
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+
+/*VISTA CONTACTO*/
+.page-node-15 .pane-vista-contacto-ambiente{
+margin-top: 55px;
+}
+
+.page-node-15 .pane-vista-contacto-ambiente h2{
+/*FALTA FAJA DE CONTACTO DE GESTION*/
+    background-image: url("../images/ambiente-cyt-contacto.png");
+    background-repeat: no-repeat;
+    background-size: 148px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 13px;
+    margin-bottom: 30px;
+}
+
+
+/*FIN AMBIENTE*/
+
+
 /* --------------- AMBIENTE AGENDA -------------- */
 
 .titulo-agenda-slider {
@@ -1688,3 +1864,73 @@ margin-top: 55px;
     text-decoration: none;
 }
 /* ----------------FIN AMBIENTE AGENDA ...........*/
+
+/*Estilos de ANDRES*/
+
+.tabla_title {
+    background-color: #e7e7e7;
+    font-weight: bold;
+    line-height: 1.7em;
+    padding: 10px;
+    margin: 20px 0 5px;
+}
+.tabla_data {
+    border-bottom: 1px solid #cccccc;
+    line-height: 1.7em;
+    padding: 10px 0px;
+}
+.tabla_data_clear {
+    line-height: 1.7em;
+    padding: 10px 0px;
+}
+.tabla_data_dashed {
+    border-bottom: 1px dashed #c6c6c6;
+    line-height: 1.7em;
+    padding: 10px 0px;
+}
+.line_bottom {
+    border-bottom: 1px solid #d0d0d0;
+}
+.line_top {
+    border-top: 1px solid #cccccc;
+}
+.recuadro_info_dest_1 {
+    background-color: #dadada;
+    border: 1px solid #cccccc;
+    line-height: 1.5em;
+    padding: 10px;
+}
+.recuadro_info_dest_2_title {
+    background-color: #dadada;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+.recuadro_info_dest_2_data {
+    background-color: #e9e9e9;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.news_photo_left {
+    float: left;
+    padding: 0 1em 0.7em 0;
+}
+.news_photo_right {
+    float: right;
+    padding: 1em 0 1em 1em;
+}
+.tabla_data_autorid_left {
+    float: left;
+    line-height: 1.5em;
+    padding: 10px 10px 10px 0;
+    text-align: right;
+    width: 45%;
+}
+.tabla_data_autorid_right {
+    float: left;
+    line-height: 1.5em;
+    padding: 10px 0 10px 10px;
+    width: 42%;
+}

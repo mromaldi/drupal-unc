@@ -9,10 +9,7 @@
 
   <?php if ($content['sidebarleft'] || $content['contentr']): ?>
     <div class="row">
-      <div class="col-xs-12 col-md-2">
         <?php print $content['sidebarleft']; ?>
-      </div>
-      <div class="col-xs-12 col-md-10">
         <?php print $content['contentr']; ?>
       </div> 
     </div>
