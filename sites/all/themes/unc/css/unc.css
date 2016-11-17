@@ -1838,6 +1838,135 @@ margin-top: 55px;
 /*FIN AMBIENTE*/
 
 
+/*****************************************************/
+/********* VISTA AMBIENTE EXTENSION ************/
+/*****************************************************/
+
+/*SLIDER NOTICIAS*/
+.page-node-17 .pane-vista-slider-noticias h2{
+background-image: url("../images/extension_ambiente_titulo.png");
+background-repeat: no-repeat;
+background-size: 352px 80px;
+text-indent: -9000px;
+height: 80px;
+background-position-x: 115px;
+margin-bottom: 15px;
+/*el color es #af6627*/
+background-color: rgba(175, 102, 39,0.15);
+background-position-y: 5px;
+}
+
+.page-node-17 .field-content.unc-slider{
+background-color: rgba(175, 102, 39,0.8);
+background-image: url("../images/icono_titular.png");
+}
+
+.page-node-17 .field-content.unc-slider a {
+color: #FFFFFF;
+}
+
+/*MENU REDES SOCIALES*/
+.page-node-17 .redes-sociales{
+    position: absolute;
+    right: 19px;
+    overflow: hidden;
+    top: 119px;
+    z-index: 99999;
+}
+
+/*TIRA DE BANNERS*/
+.page-node-17 .pane-vista-tira-banners{
+margin-bottom: 50px;
+margin-top: 20px;
+}
+
+
+/*VISTA NOVEVDADES*/
+.page-node-17 .pane-vista-novedades h2{
+    background-image: url("../images/ambiente-cyt-ultimas-noticias.png");
+    background-repeat: no-repeat;
+    background-size: 284px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 100px;
+    margin-bottom: 30px;
+}
+
+.page-node-17 .view-id-vista_novedades ul {
+    padding-left: 0px;
+}
+
+.page-node-17 .view-id-vista_novedades li {
+    background-color: rgba(175, 102, 39,0.1);
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-node-17 .view-id-vista_novedades li a {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #222222;
+}
+
+.page-node-17 .view-id-vista_novedades li:hover {
+    background-color: rgba(175, 102, 39,0.2);
+}
+
+.page-node-17 .view-id-vista_novedades li a:hover {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #af6627;
+    text-decoration: none;
+}
+
+
+/*VISTA VIDEOS*/
+.page-node-17 .pane-vista-videos .view-id-vista_videos{
+    margin-top: 88px;
+}
+
+/* VISTA MULTIMEDIA*/
+.page-node-17 .pane-vista-multimedia-ambiente{
+margin-top: 55px;
+}
+
+
+/*VISTA AGENDA*/
+.page-node-17 .pane-vista-eventos{
+margin-top: 55px;
+}
+
+.page-node-17 .titulo-agenda:nth-child(odd) {
+    padding-top: 16px;
+    background-color: rgba(175, 102, 39,,0.1);
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+
+/*VISTA CONTACTO*/
+.page-node-17 .pane-vista-contacto-ambiente{
+margin-top: 55px;
+}
+
+.page-node-17 .pane-vista-contacto-ambiente h2{
+/*FALTA FAJA DE CONTACTO DE GESTION*/
+    background-image: url("../images/ambiente-cyt-contacto.png");
+    background-repeat: no-repeat;
+    background-size: 148px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 13px;
+    margin-bottom: 30px;
+}
+
+
+/*FIN AMBIENTE*/
+
+
+
+
+
 /* --------------- AMBIENTE AGENDA -------------- */
 
 .titulo-agenda-slider {
