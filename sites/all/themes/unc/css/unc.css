@@ -1305,6 +1305,15 @@ margin-top: 55px;
     margin-bottom: 10px;
 }
 
+.page-node-21 .titulo-agenda a:hover{
+    color: #0071b4;
+    text-decoration: none;
+}
+
+.page-node-21 .view-id-vista_eventos .fecha-agenda {
+    background-color: #0071b4;
+}
+
 /*VISTA CONTACTO*/
 .page-node-21 .pane-vista-contacto-ambiente{
 margin-top: 55px;
@@ -1322,7 +1331,7 @@ margin-top: 55px;
 
 .page-node-21 .field-content.unc-slider{
 background-color: rgba(116, 173, 225,0.8);
-background-image: url("../images/icono_titular.png");
+background-image: url("../images/icono_titular-blanco.png");
 }
 
 .page-node-21 .field-content.unc-slider a {
@@ -1353,7 +1362,7 @@ background-position-y: 5px;
 
 .page-node-18 .field-content.unc-slider{
 background-color: rgba(164, 29, 52,0.8);
-background-image: url("../images/icono_titular.png");
+background-image: url("../images/icono_titular-blanco.png");
 }
 
 .page-node-18 .field-content.unc-slider a {
@@ -1440,6 +1449,16 @@ margin-top: 55px;
     margin-bottom: 10px;
 }
 
+
+.page-node-18 .titulo-agenda a:hover{
+    color: #A41D34;
+    text-decoration: none;
+}
+
+.page-node-18 .view-id-vista_eventos .fecha-agenda {
+    background-color: #A41D34;
+}
+
 /*VISTA CONTACTO*/
 .page-node-18 .pane-vista-contacto-ambiente{
 margin-top: 55px;
@@ -1480,7 +1499,7 @@ background-position-y: 5px;
 
 .page-node-19 .field-content.unc-slider{
 background-color: rgba(164, 29, 52,0.8);
-background-image: url("../images/icono_titular.png");
+background-image: url("../images/icono_titular-blanco.png");
 }
 
 .page-node-19 .field-content.unc-slider a {
@@ -1566,6 +1585,16 @@ margin-top: 55px;
     margin-bottom: 10px;
 }
 
+.page-node-19 .titulo-agenda a:hover{
+    color: #3A612E;
+    text-decoration: none;
+}
+
+.page-node-19 .view-id-vista_eventos .fecha-agenda {
+    background-color: #3A612E;
+}
+
+
 /*VISTA CONTACTO*/
 .page-node-19 .pane-vista-contacto-ambiente{
 margin-top: 55px;
@@ -1606,7 +1635,7 @@ background-position-y: 5px;
 
 .page-node-16 .field-content.unc-slider{
 background-color: rgba(0, 117, 139,0.8);
-background-image: url("../images/icono_titular.png");
+background-image: url("../images/icono_titular-blanco.png");
 }
 
 .page-node-16 .field-content.unc-slider a {
@@ -1692,6 +1721,16 @@ margin-top: 55px;
     margin-bottom: 10px;
 }
 
+.page-node-16 .titulo-agenda a:hover{
+    color: #00758b;
+    text-decoration: none;
+}
+
+.page-node-16 .view-id-vista_eventos .fecha-agenda {
+    background-color: #00758b;
+}
+
+
 /*VISTA CONTACTO*/
 .page-node-16 .pane-vista-contacto-ambiente{
 margin-top: 55px;
@@ -1732,7 +1771,7 @@ background-position-y: 5px;
 
 .page-node-15 .field-content.unc-slider{
 background-color: rgba(175, 102, 39,0.8);
-background-image: url("../images/icono_titular.png");
+background-image: url("../images/icono_titular-blanco.png");
 }
 
 .page-node-15 .field-content.unc-slider a {
@@ -1813,9 +1852,18 @@ margin-top: 55px;
 
 .page-node-15 .titulo-agenda:nth-child(odd) {
     padding-top: 16px;
-    background-color: rgba(175, 102, 39,,0.1);
+    background-color: rgba(175, 102, 39,0.1);
     padding-bottom: 16px;
     margin-bottom: 10px;
+}
+
+.page-node-15 .titulo-agenda a:hover{
+    color: #af6627;
+    text-decoration: none;
+}
+
+.page-node-15 .view-id-vista_eventos .fecha-agenda {
+    background-color: #af6627;
 }
 
 /*VISTA CONTACTO*/
@@ -1846,19 +1894,19 @@ margin-top: 55px;
 .page-node-17 .pane-vista-slider-noticias h2{
 background-image: url("../images/extension_ambiente_titulo.png");
 background-repeat: no-repeat;
-background-size: 352px 80px;
+background-size: 362px 57px;
 text-indent: -9000px;
 height: 80px;
-background-position-x: 115px;
+background-position-x: 100px;
 margin-bottom: 15px;
-/*el color es #af6627*/
-background-color: rgba(175, 102, 39,0.15);
-background-position-y: 5px;
+/*el color es #801646*/
+background-color: rgba(128, 22, 70,0.15);
+background-position-y: 10px;
 }
 
 .page-node-17 .field-content.unc-slider{
-background-color: rgba(175, 102, 39,0.8);
-background-image: url("../images/icono_titular.png");
+background-color: rgba(128, 22, 70,0.8);
+background-image: url("../images/icono_titular-blanco.png");
 }
 
 .page-node-17 .field-content.unc-slider a {
@@ -1897,7 +1945,7 @@ margin-top: 20px;
 }
 
 .page-node-17 .view-id-vista_novedades li {
-    background-color: rgba(175, 102, 39,0.1);
+    background-color: rgba(128, 22, 70,0.1);
     list-style: none;
     margin-bottom: 15px;
     line-height: 50px;
@@ -1910,13 +1958,13 @@ margin-top: 20px;
 }
 
 .page-node-17 .view-id-vista_novedades li:hover {
-    background-color: rgba(175, 102, 39,0.2);
+    background-color: rgba(128, 22, 70,0.2);
 }
 
 .page-node-17 .view-id-vista_novedades li a:hover {
     vertical-align: middle;
     margin-left: 10px;
-    color: #af6627;
+    color: #801646;
     text-decoration: none;
 }
 
@@ -1939,9 +1987,19 @@ margin-top: 55px;
 
 .page-node-17 .titulo-agenda:nth-child(odd) {
     padding-top: 16px;
-    background-color: rgba(175, 102, 39,,0.1);
+    background-color: rgba(128, 22, 70,0.1);
     padding-bottom: 16px;
     margin-bottom: 10px;
+}
+
+.page-node-17 .titulo-agenda a:hover{
+    color: #801646;
+    text-decoration: none;
+}
+
+
+.page-node-17 .view-id-vista_eventos .fecha-agenda {
+    background-color: #801646;
 }
 
 /*VISTA CONTACTO*/
@@ -1965,9 +2023,157 @@ margin-top: 55px;
 
 
 
+/*****************************************************/
+/********* VISTA AMBIENTE comunicacion ************/
+/*****************************************************/
+
+/*SLIDER NOTICIAS*/
+.page-node-22 .pane-vista-slider-noticias h2{
+background-image: url("../images/Comunicacion_cabecera.png");
+background-repeat: no-repeat;
+background-size: 362px 57px;
+text-indent: -9000px;
+height: 80px;
+background-position-x: 100px;
+margin-bottom: 15px;
+/*el color es #538D3F*/
+background-color: rgba(83, 141, 63,0.15);
+background-position-y: 10px;
+}
+
+.page-node-22 .field-content.unc-slider{
+background-color: rgba(83, 141, 63,0.8);
+background-image: url("../images/icono_titular-blanco.png");
+}
+
+.page-node-22 .field-content.unc-slider a {
+color: #FFFFFF;
+}
+
+/*MENU REDES SOCIALES*/
+.page-node-22 .redes-sociales{
+    position: absolute;
+    right: 19px;
+    overflow: hidden;
+    top: 119px;
+    z-index: 99999;
+}
+
+/*TIRA DE BANNERS*/
+.page-node-22 .pane-vista-tira-banners{
+margin-bottom: 50px;
+margin-top: 20px;
+}
+
+
+/*VISTA NOVEVDADES*/
+.page-node-22 .pane-vista-novedades h2{
+    background-image: url("../images/Comunicacion_Novedades.png");
+    background-repeat: no-repeat;
+    background-size: 284px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 100px;
+    margin-bottom: 30px;
+}
+
+.page-node-22 .view-id-vista_novedades ul {
+    padding-left: 0px;
+}
+
+.page-node-22 .view-id-vista_novedades li {
+    background-color: rgba(83, 141, 63,0.1);
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-node-22 .view-id-vista_novedades li a {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #222222;
+}
+
+.page-node-22 .view-id-vista_novedades li:hover {
+    background-color: rgba(83, 141, 63,0.2);
+}
+
+.page-node-22 .view-id-vista_novedades li a:hover {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #538d3f;
+    text-decoration: none;
+}
+
+
+/*VISTA VIDEOS*/
+.page-node-22 .pane-vista-videos .view-id-vista_videos{
+    margin-top: 88px;
+}
+
+/* VISTA MULTIMEDIA*/
+.page-node-22 .pane-vista-multimedia-ambiente{
+margin-top: 55px;
+}
+
+
+/*VISTA AGENDA*/
+.page-node-22 .pane-vista-eventos{
+margin-top: 55px;
+}
+
+.page-node-22 .titulo-agenda:nth-child(odd) {
+    padding-top: 16px;
+    background-color: rgba(83, 141, 63,0.1);
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+
+.page-node-22 .titulo-agenda a:hover{
+    color: #538d3f;
+    text-decoration: none;
+}
+
+
+.page-node-22 .view-id-vista_eventos .fecha-agenda {
+    background-color: #538d3f;
+}
+
+/*VISTA CONTACTO*/
+.page-node-22 .pane-vista-contacto-ambiente{
+margin-top: 55px;
+}
+
+.page-node-22 .pane-vista-contacto-ambiente h2{
+    background-image: url("../images/Comunicacion_Contacto.png");
+    background-repeat: no-repeat;
+    background-size: 148px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 13px;
+    margin-bottom: 30px;
+}
+
+
+/*FIN AMBIENTE*/
+
+
+
 
 
 /* --------------- AMBIENTE AGENDA -------------- */
+
+.page-node-26 h1.page-header-agenda{
+background-image: url("../images/agenda.png");
+background-repeat: no-repeat;
+background-size: 180px 36px;
+text-indent: -9000px;
+height: 60px;
+background-position-x: 95px;
+margin-bottom: 15px;
+background-color: #eaeaea;
+background-position-y: 15px;
+}
 
 .titulo-agenda-slider {
     position: absolute;
@@ -1980,7 +2186,7 @@ margin-top: 55px;
     font-weight: bold;
     font-size: 26px;
     color: #ffffff;
-    background-image: url(../images/icono_titular.png);
+    background-image: url(../images/icono_titular-blanco.png);
     background-repeat: no-repeat;
     background-size: 52px 42px;
     background-position-y: 32px;
@@ -1992,6 +2198,98 @@ margin-top: 55px;
     color:#ffffff;
     text-decoration: none;
 }
+
+.page-node-26 .eventos-academicos h2.pane-title {
+    background-image: url("../images/Agenda_academicas.png");
+    background-repeat: no-repeat;
+    text-indent: -9000px;
+    height: 42px;
+    background-position-x: 94px;
+    margin-bottom: 16px;
+    background-color: #eaeaea;
+    background-position-y: 50%;
+}
+
+.page-node-26 .eventos-concurso h2.pane-title {
+    background-image: url("../images/Agenda_concursos.png");
+    background-repeat: no-repeat;
+    text-indent: -9000px;
+    height: 42px;
+    background-position-x: 94px;
+    margin-bottom: 16px;
+    background-color: #eaeaea;
+    background-position-y: 50%;
+}
+
+.page-node-26 .eventos-culturales h2.pane-title {
+    background-image: url("../images/Agenda_culturales.png");
+    background-repeat: no-repeat;
+    text-indent: -9000px;
+    height: 42px;
+    background-position-x: 94px;
+    margin-bottom: 16px;
+    background-color: #eaeaea;
+    background-position-y: 50%;
+}
+
+.page-node-26 .eventos-posgrado h2.pane-title {
+    background-image: url("../images/Agenda_posgrados.png");
+    background-repeat: no-repeat;
+    text-indent: -9000px;
+    height: 42px;
+    background-position-x: 94px;
+    margin-bottom: 16px;
+    background-color: #eaeaea;
+    background-position-y: 50%;
+}
+
+
+.page-node-26 .titulo-agenda{
+    padding-top: 16px;
+    background-color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.page-node-26 .titulo-agenda a{
+    margin-left: 15px;
+    color: #c30d27;
+}
+
+.page-node-26 .titulo-agenda a:hover{
+    text-decoration: none;
+}
+
+
+.page-node-26 .view-vista-eventos-agrupados .fecha-agenda {
+    background-color: #FFFFFF;
+    color: #c30d27;
+    width: 67px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    text-transform: lowercase;
+    float: left;
+}
+
+.page-node-26 .view-vista-eventos-agrupados .fecha-agenda:hover {
+    background-color: #c30d27;
+    color:#ffffff;
+}
+
+.page-node-26 .view-vista-eventos-agrupados .fecha-agenda {
+    background-color: #eaeaea;
+    color: #c30d27;
+}
+
+
+.page-node-26 .redes-sociales {
+    position: absolute;
+    right: 19px;
+    overflow: hidden;
+    top: 113px;
+    z-index: 99999;
+}
+
 /* ----------------FIN AMBIENTE AGENDA ...........*/
 
 /*Estilos de ANDRES*/
