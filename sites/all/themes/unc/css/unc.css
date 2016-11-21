@@ -153,6 +153,7 @@ a.link-comunidad{
     border-bottom-color:#5b3571;
 }
 
+
 /*MENU AMBIENTES 1ER NIVEL*/
 
 /*no-link*/
@@ -216,9 +217,23 @@ a.link-planificacion.sf-depth-1.active{
     color: #ffffff;
 }
 
+a.link-comunicacion.sf-depth-1.active{
+    background-color:#538d3f;
+    color: #ffffff;
+}
+
+a.link-agenda.sf-depth-1.active{
+    background-color:#c30d27;
+    color: #ffffff;
+}
+
 .sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul{
     background-image:none;
     background-color:#ffffff;
+}
+a.link-english.sf-depth-1.active{
+    background-color:#094469;
+    color: #ffffff;
 }
 
 /*2DO NIVEL */
@@ -1337,9 +1352,60 @@ background-image: url("../images/icono_titular-blanco.png");
 .page-node-21 .field-content.unc-slider a {
 color: #FFFFFF;
 }
+/******** dentro de el nodo del ambiente 21 *********/
 
-
+.page-node-21 .panel-pane.pane-node-title.titulo-nodo h2 {
+    background-color: rgba(116, 173, 225,0.8);
+    color: #FFFFFF;
+    padding:20px 40px;
+    z-index: 1;
+    position: relative;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+    
+}
 /*FIN AMBIENTE*/
+
+/*class genericas para panel nodo*/
+
+
+.panel-pane.pane-entity-field.pane-node-body.body-nodo, .panel-pane.pane-block.pane-superfish-4.menu-nodo{
+    margin-top:55px;
+}
+
+.page-node-21 .menu-ambiente-2nivel li> a{
+    border-right-width: 0;
+}
+
+.page-node-21 .menu-ambiente-2nivel li.menuparent a:hover{
+    background-color:#0071b4;
+    color:#ffffff;
+}
+
+.page-node-21 .menu-ambiente-2nivel li.menuparent span:hover{
+    background-color:#0071b4;
+    color:#ffffff;
+}
+
+.page-node-21 .sf-menu ul {
+    background-color: white;
+}
+
+.page-node-21 li.active-trail a{
+    background-color: #0071b4;
+    color: #ffffff;
+}
+
+.page-node-21 li.active-trail span{
+    background-color: #0071b4;
+    color: #ffffff;
+}
+
+.page-node-21 .menu-ambiente-2nivel li a:hover{
+    background-color:#0071b4;
+    color: #ffffff;
+}
 
 
 /*****************************************************/
@@ -1473,11 +1539,91 @@ margin-top: 55px;
     background-position-x: 13px;
     margin-bottom: 30px;
 }
+/*menues*/
+.page-node-18 li.active-trail a{
+    background-color: #a41d34;
+    color: #ffffff;
+}
 
+.page-node-18 li.active-trail span{
+    background-color: #a41d34;
+    color: #ffffff;
+}
+
+.page-node-18 .menu-ambiente-2nivel li> a{
+    border-right-width: 0;
+}
+
+.page-node-18 .menu-ambiente-2nivel li.menuparent a:hover{
+    background-color:#a41d34;
+    color:#ffffff;
+}
+
+.page-node-18 .menu-ambiente-2nivel li.menuparent span:hover{
+    background-color:#a41d34;
+    color:#ffffff;
+}
+
+.page-node-18 .sf-menu ul {
+    background-color: white;
+}
+
+.page-node-18 li.active-trail a{
+    background-color: #a41d34;
+    color: #ffffff;
+}
+
+.page-node-18 .menu-ambiente-2nivel li a:hover{
+    background-color:#a41d34;
+    color: #ffffff;
+}
 
 /*FIN AMBIENTE*/
 
+/*****************************************************/
+/********* VISTA AMBIENTE GESTION INSTITUCIONAL ************/
+/*****************************************************/
 
+/*menues*/
+.page-node-14 li.active-trail a{
+    background-color: #094469;
+    color: #ffffff;
+}
+
+.page-node-14 li.active-trail span{
+    background-color: #094469;
+    color: #ffffff;
+}
+
+.page-node-14 .menu-ambiente-2nivel li> a{
+    border-right-width: 0;
+}
+
+.page-node-14 .menu-ambiente-2nivel li.menuparent a:hover{
+    background-color:#094469;
+    color:#ffffff;
+}
+
+.page-node-14 .menu-ambiente-2nivel li.menuparent span:hover{
+    background-color:#094469;
+    color:#ffffff;
+}
+
+.page-node-14 .sf-menu ul {
+    background-color: white;
+}
+
+.page-node-14 li.active-trail a{
+    background-color:#094469;
+    color: #ffffff;
+}
+
+.page-node-14 .menu-ambiente-2nivel li a:hover{
+    background-color:#094469;
+    color: #ffffff;
+}
+
+/*FIN AMBIENTE*/
 
 /*****************************************************/
 /********* VISTA AMBIENTE GESTION INSTITUCIONAL ************/
@@ -1498,7 +1644,7 @@ background-position-y: 5px;
 }
 
 .page-node-19 .field-content.unc-slider{
-background-color: rgba(164, 29, 52,0.8);
+background-color: rgba(58, 97, 46,0.8);
 background-image: url("../images/icono_titular-blanco.png");
 }
 
@@ -1611,6 +1757,43 @@ margin-top: 55px;
     margin-bottom: 30px;
 }
 
+/*menues*/
+.page-node-19 li.active-trail a{
+    background-color: #3a612c;
+    color: #ffffff;
+}
+
+.page-node-19 li.active-trail span{
+    background-color: #3a612c;
+    color: #ffffff;
+}
+
+.page-node-19 .menu-ambiente-2nivel li> a{
+    border-right-width: 0;
+}
+
+.page-node-19 .menu-ambiente-2nivel li.menuparent a:hover{
+    background-color:#3a612c;
+    color:#ffffff;
+}
+
+.page-node-19 .menu-ambiente-2nivel li.menuparent span:hover{
+    background-color:#3a612c;
+    color:#ffffff;
+}
+
+.page-node-19 .sf-menu ul {
+    background-color: white;
+}
+
+.page-node-19 li.active-trail a{
+    background-color:#3a612c;
+    color: #ffffff;
+}
+.page-node-19 .menu-ambiente-2nivel li a:hover{
+    background-color:#3a612c;
+    color: #ffffff;
+}
 
 /*FIN AMBIENTE*/
 
@@ -1747,6 +1930,43 @@ margin-top: 55px;
     margin-bottom: 30px;
 }
 
+/*menues*/
+.page-node-16 li.active-trail a{
+    background-color: #00758b;
+    color: #ffffff;
+}
+
+.page-node-16 li.active-trail span{
+    background-color: #00758b;
+    color: #ffffff;
+}
+
+.page-node-16 .menu-ambiente-2nivel li> a{
+    border-right-width: 0;
+}
+
+.page-node-16 .menu-ambiente-2nivel li.menuparent a:hover{
+    background-color:#00758b;
+    color:#ffffff;
+}
+
+.page-node-16 .menu-ambiente-2nivel li.menuparent span:hover{
+    background-color:#00758b;
+    color:#ffffff;
+}
+
+.page-node-16 .sf-menu ul {
+    background-color: white;
+}
+
+.page-node-16 li.active-trail a{
+    background-color:#00758b;
+    color: #ffffff;
+}
+.page-node-16 .menu-ambiente-2nivel li a:hover{
+    background-color:#00758b;
+    color: #ffffff;
+}
 
 /*FIN AMBIENTE*/
 
@@ -1882,6 +2102,44 @@ margin-top: 55px;
     margin-bottom: 30px;
 }
 
+/*menues*/
+.page-node-15 li.active-trail a{
+    background-color: #c47629;
+    color: #ffffff;
+}
+
+.page-node-15 li.active-trail span{
+    background-color: #c47629;
+    color: #ffffff;
+}
+
+.page-node-15 .menu-ambiente-2nivel li> a{
+    border-right-width: 0;
+}
+
+.page-node-15 .menu-ambiente-2nivel li.menuparent a:hover{
+    background-color:#c47629;
+    color:#ffffff;
+}
+
+.page-node-15 .menu-ambiente-2nivel li.menuparent span:hover{
+    background-color:#c47629;
+    color:#ffffff;
+}
+
+.page-node-15 .sf-menu ul {
+    background-color: white;
+}
+
+.page-node-15 li.active-trail a{
+    background-color:#c47629;
+    color: #ffffff;
+}
+
+.page-node-15 .menu-ambiente-2nivel li a:hover{
+    background-color:#c47629;
+    color: #ffffff;
+}
 
 /*FIN AMBIENTE*/
 
@@ -2019,6 +2277,45 @@ margin-top: 55px;
 }
 
 
+/*menues*/
+.page-node-17 li.active-trail a{
+    background-color: #801646;
+    color: #ffffff;
+}
+
+.page-node-17 li.active-trail span{
+    background-color: #801646;
+    color: #ffffff;
+}
+
+.page-node-17 .menu-ambiente-2nivel li> a{
+    border-right-width: 0;
+}
+
+.page-node-17 .menu-ambiente-2nivel li.menuparent a:hover{
+    background-color: #801646;
+    color: #ffffff;
+}
+
+.page-node-17 .menu-ambiente-2nivel li.menuparent span:hover{
+    background-color:#801646;
+    color:#ffffff;
+}
+
+.page-node-17 .sf-menu ul {
+    background-color: white;
+}
+
+.page-node-17 li.active-trail a{
+    background-color:#801646;
+    color: #ffffff;
+}
+
+.page-node-17 .menu-ambiente-2nivel li a:hover{
+    background-color:#801646;
+    color: #ffffff;
+}
+
 /*FIN AMBIENTE*/
 
 
@@ -2154,11 +2451,88 @@ margin-top: 55px;
     margin-bottom: 30px;
 }
 
+/*menues*/
+.page-node-22 li.active-trail a{
+    background-color: #538d3f;
+    color: #ffffff;
+}
+
+.page-node-22 li.active-trail span{
+    background-color: #538d3f;
+    color: #ffffff;
+}
+
+.page-node-22 .menu-ambiente-2nivel li> a{
+    border-right-width: 0;
+}
+
+.page-node-22 .menu-ambiente-2nivel li.menuparent a:hover{
+    background-color:#538d3f;
+    color:#ffffff;
+}
+
+.page-node-22 .menu-ambiente-2nivel li.menuparent span:hover{
+    background-color:#538d3f;
+    color:#ffffff;
+}
+
+.page-node-22 .sf-menu ul {
+    background-color: white;
+}
+
+.page-node-22 li.active-trail a{
+    background-color:#538d3f;
+    color: #ffffff;
+}
+
+.page-node-22 .menu-ambiente-2nivel li a:hover{
+    background-color:#538d3f;
+    color: #ffffff;
+}
+
 
 /*FIN AMBIENTE*/
+/*ambiente english*/
+/*menues*/
+.page-node-25 li.active-trail a{
+    background-color: #094469;
+    color: #ffffff;
+}
 
+.page-node-25 li.active-trail span{
+    background-color: #094469;
+    color: #ffffff;
+}
 
+.page-node-25 .menu-ambiente-2nivel li> a{
+    border-right-width: 0;
+}
 
+.page-node-25 .menu-ambiente-2nivel li.menuparent a:hover{
+    background-color:#094469;
+    color:#ffffff;
+}
+
+.page-node-25 .menu-ambiente-2nivel li.menuparent span:hover{
+    background-color:#094469;
+    color:#ffffff;
+}
+
+.page-node-25 .sf-menu ul {
+    background-color: white;
+}
+
+.page-node-25 li.active-trail a{
+    background-color:#094469;
+    color: #ffffff;
+}
+
+.page-node-25 .menu-ambiente-2nivel li a:hover{
+    background-color:#094469;
+    color: #ffffff;
+}
+
+/*fin ambiente*/
 
 
 /* --------------- AMBIENTE AGENDA -------------- */
@@ -2291,6 +2665,11 @@ background-position-y: 15px;
 }
 
 /* ----------------FIN AMBIENTE AGENDA ...........*/
+
+/*BLOQUE BOTONES COMPARTIR*/
+.addtoany_list > a{
+    padding: 0 8px 0 0;
+}
 
 /*Estilos de ANDRES*/
 
