@@ -154,6 +154,7 @@ a.link-comunidad{
 }
 
 
+
 /*MENU AMBIENTES 1ER NIVEL*/
 
 /*no-link*/
@@ -253,6 +254,32 @@ a.link-english.sf-depth-1.active{
 
 .sf-menu ul {
     background-color: white;
+}
+/*4to nivel*/
+
+ul#superfish-4{
+    width:100%;
+}
+
+ul#superfish-4.sf-menu-menu-ambientes li{
+    width: 100%;
+    height:50px;
+    margin-bottom:15px !important;
+}
+
+ul#superfish-4 li > a{
+    height: 50px;
+    padding: 20px;
+}
+.page-node-17 ul#superfish-4 a{
+    background-color: #801646;
+    color: #ffffff;
+}
+
+.page-node-17 ul#superfish-4 li.active-trail a {
+    background-color: rgba(128, 22, 70,0.15);
+    color: #801646;
+    border-right-width: 0;
 }
 
 
@@ -1352,7 +1379,8 @@ background-image: url("../images/icono_titular-blanco.png");
 .page-node-21 .field-content.unc-slider a {
 color: #FFFFFF;
 }
-/******** dentro de el nodo del ambiente 21 *********/
+
+/******** dentro del nodo del ambiente 21 *********/
 
 .page-node-21 .panel-pane.pane-node-title.titulo-nodo h2 {
     background-color: rgba(116, 173, 225,0.8);
@@ -1363,12 +1391,10 @@ color: #FFFFFF;
     width:100%;
     margin-top:0;
     margin-bottom:0;
-    
 }
 
-/*noticias*/
-.page-node-21 h2.page-header-node{
-color: rgb(116, 173, 225);
+.page-node-21 .field.field-name-field-imagen-pagina.field-type-image.field-label-hidden {
+    margin-top: -73px;
 }
 
 /*FIN AMBIENTE*/
@@ -1413,6 +1439,16 @@ color: rgb(116, 173, 225);
     color: #ffffff;
 }
 
+.page-node-21 ul#superfish-4 a{
+    background-color: #0071b4;
+    color: #ffffff;
+}
+
+.page-node-21 ul#superfish-4 li.active-trail a {
+    background-color: rgba(116, 173, 225,0.8);
+    color: #0071b4;
+    border-right-width: 0;
+}
 
 /*****************************************************/
 /********* VISTA AMBIENTE VIDA ESTUDIANTIL ************/
@@ -1584,10 +1620,17 @@ margin-top: 55px;
     color: #ffffff;
 }
 
-/*noticias*/
-.page-node-18 h2.page-header-node {
-    color: #a41d34;
+.page-node-18 ul#superfish-4 a{
+    background-color: #a41d34;
+    color: #ffffff;
 }
+
+.page-node-18 ul#superfish-4 li.active-trail a {
+    background-color: rgba(164, 29, 52, 0.15);
+    color: #a41d34;
+    border-right-width: 0;
+}
+
 
 /*FIN AMBIENTE*/
 
@@ -1634,9 +1677,15 @@ margin-top: 55px;
     color: #ffffff;
 }
 
-/*noticias*/
-.page-node-14 h2.page-header-node {
+.page-node-14 ul#superfish-4 a{
+    background-color: #094469;
+    color: #ffffff;
+}
+
+.page-node-14 ul#superfish-4 li.active-trail a {
+    background-color: rgba(9, 68, 105,0.15);
     color: #094469;
+    border-right-width: 0;
 }
 
 /*FIN AMBIENTE*/
@@ -1811,9 +1860,15 @@ margin-top: 55px;
     color: #ffffff;
 }
 
-/*noticias*/
-.page-node-19 h2.page-header-node {
+.page-node-19 ul#superfish-4 a{
+    background-color: #3a612c;
+    color: #ffffff;
+}
+
+.page-node-19 ul#superfish-4 li.active-trail a {
+    background-color: rgba(58, 97, 46, 0.15);
     color: #3a612c;
+    border-right-width: 0;
 }
 
 /*FIN AMBIENTE*/
@@ -1989,9 +2044,15 @@ margin-top: 55px;
     color: #ffffff;
 }
 
-/*noticias*/
-.page-node-16 h2.page-header-node {
+.page-node-16 ul#superfish-4 a{
+    background-color: #00758b;
+    color: #ffffff;
+}
+
+.page-node-16 ul#superfish-4 li.active-trail a {
+    background-color: rgba(0, 117, 139,0.15);
     color: #00758b;
+    border-right-width: 0;
 }
 
 /*FIN AMBIENTE*/
@@ -2128,10 +2189,6 @@ margin-top: 55px;
     margin-bottom: 30px;
 }
 
-/*noticias*/
-.page-node-15 h2.page-header-node{
-color: #c47629;
-}
 
 /*menues*/
 .page-node-15 li.active-trail a{
@@ -2172,9 +2229,15 @@ color: #c47629;
     color: #ffffff;
 }
 
-/*noticias*/
-.page-node-15 h2.page-header-node {
+.page-node-15 ul#superfish-4 a{
+    background-color: #c47629;
+    color: #ffffff;
+}
+
+.page-node-15 ul#superfish-4 li.active-trail a {
+    background-color: rgba(175, 102, 39,0.15);
     color: #c47629;
+    border-right-width: 0;
 }
 
 /*FIN AMBIENTE*/
@@ -2352,10 +2415,6 @@ margin-top: 55px;
     color: #ffffff;
 }
 
-/*noticias*/
-.page-node-17 h2.page-header-node {
-    color: #801646;
-}
 
 /*FIN AMBIENTE*/
 
@@ -2531,10 +2590,17 @@ margin-top: 55px;
     color: #ffffff;
 }
 
-/*noticias*/
-.page-node-22 h2.page-header-node {
-    color: #538d3f;
+.page-node-22 ul#superfish-4 a{
+    background-color: #538d3f;
+    color: #ffffff;
 }
+
+.page-node-22 ul#superfish-4 li.active-trail a {
+    background-color: rgba(83, 141, 63, 0.15);
+    color: #538d3f;
+    border-right-width: 0;
+}
+
 
 /*FIN AMBIENTE*/
 
@@ -2579,9 +2645,15 @@ margin-top: 55px;
     color: #ffffff;
 }
 
-/*noticias*/
-.page-node-25 h2.page-header-node {
+.page-node-25 ul#superfish-4 a{
+    background-color: #094469;
+    color: #ffffff;
+}
+
+.page-node-25 ul#superfish-4 li.active-trail a {
+    background-color: rgba(9, 68, 105,0.15);
     color: #094469;
+    border-right-width: 0;
 }
 
 /*fin ambiente*/
@@ -2716,10 +2788,6 @@ background-position-y: 15px;
     z-index: 99999;
 }
 
-/*noticias*/
-.page-node-26 h2.page-header-node {
-    color: #c30d27;
-}
 
 /* ----------------FIN AMBIENTE AGENDA ...........*/
 

@@ -12,8 +12,8 @@ $plugin = array(
   'admin css' => 'panels-bootstrap-layouts-admin-unc.css',
   'regions' => array(
     'top' => t('Top'),
-    'sidebarleft' => t('Sidebar left'),
-    'contentr' => t('Content'),
+    'sidebarleft' => t('Content'),
+    'contentr' => t('Sidebar'),
     'bottom' => t('Bottom'),
 
   ),
