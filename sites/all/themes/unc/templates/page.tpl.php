@@ -81,7 +81,9 @@
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a>
       <?php endif; ?>
-
+      <?php if (!empty($site_slogan)): ?>
+      <p class="lead"><?php print $site_slogan; ?></p>
+      <?php endif; ?>
       <?php if (!empty($site_name)): ?>
         <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
       <?php endif; ?>
@@ -118,9 +120,7 @@
     <!--<div id="logo-campus-virtual-min" class="logo-campus-virtual-min hidden-md hidden-lg visible-xs visible-sm">
         <img src="<?php print $base_path.path_to_theme(); ?>/images/logo_cv.png" alt="unc" />
     </div>-->
-    <?php if (!empty($site_slogan)): ?>
-      <p class="lead"><?php print $site_slogan; ?></p>
-    <?php endif; ?>
+    
   </div>
     
 </header>

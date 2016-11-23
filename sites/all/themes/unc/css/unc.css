@@ -44,21 +44,7 @@ body{
     width: 215px;
 }
 
-@media (max-width: 767px) { /*Extra small devices */
-  .logo-campus-virtual {
-       left: 725px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) { /*Small devices Tablets */
-  .logo-campus-virtual {
-       left: 592px;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {/*Medium devices */
-  .logo-campus-virtual {
-       left: 725px;
-  }
-}
+
 
 .breadcrumb {
     position:absolute;
@@ -669,6 +655,9 @@ width: 170px;
     margin-bottom: 4px;
     width: 50px;
     height: 50px;
+}
+.redes-sociales ul{
+    list-style-type: none;
 }
 
 /*----------PERFILES------------*/
@@ -3406,3 +3395,47 @@ background-position-y: 15px;
     padding: 10px 0 10px 10px;
     width: 42%;
 }
+
+/*responsive css*/
+
+/*dispositivos < 768 */
+@media (max-width: 767px){
+    .logo-campus-virtual {
+       left: 725px;
+    }
+    a.name.navbar-brand{
+        font-size: 15px;
+    }
+    
+    .field-content.unc-slider {
+        top: 45%;
+        width: 100%;
+        position:relative;
+        font-size:16px;
+    }
+    .redes-sociales {
+        position: relative;
+        text-align: right;
+        top:0;
+        right:0;
+    }
+    .redes-sociales ul li {
+        display: inline;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .logo-campus-virtual {
+       left: 592px;
+    }
+    .field-content.unc-slider {
+        top: 45%;
+        width: 80%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {/*Medium devices */
+  .logo-campus-virtual {
+       left: 725px;
+  }
+}
+
