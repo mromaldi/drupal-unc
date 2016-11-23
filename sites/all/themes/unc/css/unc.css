@@ -178,7 +178,7 @@ a.link-comunidad{
 }
 
 .sf-menu-menu-ambientes li.first a {
-    padding-left: 0;
+    padding-left: 5px;
 }
 
 .sf-menu-menu-ambientes li.last a {
@@ -518,6 +518,30 @@ width: 170px;
     text-decoration: none;
 }
 
+.more-link {
+    background-color: #f5fafe;
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.more-link a {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #337ab7;
+}
+
+.more-link:hover {
+    background-color: #E6F2FD;
+}
+
+.more-link a:hover {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #337ab7;
+    text-decoration: none;
+}
+
 /*-----VISTA EVENTOS HOME-------*/
 .pane-vista-eventos h2{
     background-image: url("../images/faja-agenda.png");
@@ -573,12 +597,14 @@ width: 170px;
     padding-top: 16px;
     background-color: #f5fafe;
     padding-bottom: 16px;
+    margin-bottom: 3px;
 }
 
 .titulo-agenda:nth-child(even){
     padding-top: 16px;
     background-color: #FFFFFF;
     padding-bottom: 16px;
+    margin-bottom: 3px;
 }
 
 .titulo-agenda a{
@@ -1397,6 +1423,21 @@ color: #FFFFFF;
     margin-top: -73px;
 }
 
+.page-node-21 a{
+    color: rgb(116, 173, 225);
+}
+
+.page-node-21 a:hover{
+    color: rgb(116, 173, 225);
+}
+
+
+li.sf-item-8 a:hover {
+    color: #FFFFFF;
+    background-color: rgb(116, 173, 225);
+}
+
+
 /*FIN AMBIENTE*/
 
 /*class genericas para panel nodo*/
@@ -1454,6 +1495,36 @@ color: #FFFFFF;
 /********* VISTA AMBIENTE VIDA ESTUDIANTIL ************/
 /*****************************************************/
 
+/******** dentro del nodo del ambiente 21 *********/
+
+.page-node-18 .panel-pane.pane-node-title.titulo-nodo h2 {
+    background-color: rgba(164, 29, 52,0.8);
+    color: #FFFFFF;
+    padding:20px 40px;
+    z-index: 1;
+    position: relative;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.page-node-18 .field.field-name-field-imagen-pagina.field-type-image.field-label-hidden {
+    margin-top: -73px;
+}
+
+.page-node-18 a{
+    color: #A41D34;
+}
+
+.page-node-18 a:hover{
+    color: #A41D34;
+}
+
+li.sf-item-5 a:hover {
+    color: #FFFFFF;
+    background-color: #A41D34;
+}
+
 /*SLIDER NOTICIAS*/
 .page-node-18 .pane-vista-slider-noticias h2{
 background-image: url("../images/ambiente-vidaestudiantil-nombre.png");
@@ -1498,7 +1569,7 @@ margin-top: 20px;
 .page-node-18 .pane-vista-novedades h2{
     background-image: url("../images/ambiente-vidaestudiantil-otrasnovedades.png");
     background-repeat: no-repeat;
-    background-size: 284px 38px;
+    background-size: 210px 38px;
     text-indent: -9000px;
     height: 38px;
     background-position-x: 100px;
@@ -1575,7 +1646,7 @@ margin-top: 55px;
 .page-node-18 .pane-vista-contacto-ambiente h2{
     background-image: url("../images/ambiente-vidaestudiantil-contacto.png");
     background-repeat: no-repeat;
-    background-size: 148px 38px;
+    background-size: 168px 38px;
     text-indent: -9000px;
     height: 38px;
     background-position-x: 13px;
@@ -1635,8 +1706,38 @@ margin-top: 55px;
 /*FIN AMBIENTE*/
 
 /*****************************************************/
-/********* VISTA AMBIENTE GESTION INSTITUCIONAL ************/
+/********* VISTA AMBIENTE SOBRE LA UNC ************/
 /*****************************************************/
+
+/******** dentro del nodo del ambiente 14 *********/
+
+.page-node-14 .panel-pane.pane-node-title.titulo-nodo h2 {
+    background-color: rgba(9, 68, 105,0.8);
+    color: #FFFFFF;
+    padding:20px 40px;
+    z-index: 1;
+    position: relative;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.page-node-14 .field.field-name-field-imagen-pagina.field-type-image.field-label-hidden {
+    margin-top: -73px;
+}
+
+.page-node-14 a{
+    color: #094469;
+}
+
+.page-node-14 a:hover{
+    color: #094469;
+}
+
+li.sf-item-1 a:hover {
+    color: #FFFFFF;
+    background-color: #094469;
+}
 
 /*menues*/
 .page-node-14 li.active-trail a{
@@ -1694,6 +1795,37 @@ margin-top: 55px;
 /********* VISTA AMBIENTE GESTION INSTITUCIONAL ************/
 /*****************************************************/
 
+/******** dentro del nodo del ambiente 21 *********/
+
+.page-node-19 .panel-pane.pane-node-title.titulo-nodo h2 {
+    background-color: rgba(58, 97, 46,0.8);
+    color: #FFFFFF;
+    padding:20px 40px;
+    z-index: 1;
+    position: relative;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.page-node-19 .field.field-name-field-imagen-pagina.field-type-image.field-label-hidden {
+    margin-top: -73px;
+}
+
+.page-node-19 a{
+    color: #3A612E;
+}
+
+.page-node-19 a:hover{
+    color: #3A612E;
+}
+
+li.sf-item-6 a:hover {
+    color: #FFFFFF;
+    background-color: #3A612E;
+}
+
+
 /*SLIDER NOTICIAS*/
 .page-node-19 .pane-vista-slider-noticias h2{
 background-image: url("../images/gestion-institucional-nombre.png");
@@ -1749,7 +1881,7 @@ margin-top: 20px;
 }
 
 .page-node-19 .view-id-vista_novedades li {
-    background-color: rgba(164, 29, 52,0.1);
+    background-color: rgba(58, 97, 46,0.1);
     list-style: none;
     margin-bottom: 15px;
     line-height: 50px;
@@ -1762,7 +1894,7 @@ margin-top: 20px;
 }
 
 .page-node-19 .view-id-vista_novedades li:hover {
-    background-color: rgba(164, 29, 52,0.2);
+    background-color: rgba(58, 97, 46,0.2);
 }
 
 .page-node-19 .view-id-vista_novedades li a:hover {
@@ -1791,7 +1923,7 @@ margin-top: 55px;
 
 .page-node-19 .titulo-agenda:nth-child(odd) {
     padding-top: 16px;
-    background-color: rgba(164, 29, 52,0.1);
+    background-color: rgba(58, 97, 46,0.1);
     padding-bottom: 16px;
     margin-bottom: 10px;
 }
@@ -1877,6 +2009,38 @@ margin-top: 55px;
 /*****************************************************/
 /********* VISTA AMBIENTE CIENCIA Y TECNOLOGIA ************/
 /*****************************************************/
+
+/******** dentro del nodo del ambiente 21 *********/
+
+.page-node-16 .panel-pane.pane-node-title.titulo-nodo h2 {
+    background-color: rgba(0, 117, 139,0.8);
+    color: #FFFFFF;
+    padding:20px 40px;
+    z-index: 1;
+    position: relative;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.page-node-16 .field.field-name-field-imagen-pagina.field-type-image.field-label-hidden {
+    margin-top: -73px;
+}
+
+.page-node-16 a{
+    color: rgb(0, 117, 139);
+}
+
+.page-node-16 a:hover{
+    color: rgb(0, 117, 139);
+}
+
+li.sf-item-3 a:hover {
+    color: #FFFFFF;
+    background-color: rgb(0, 117, 139);
+}
+
+
 
 /*SLIDER NOTICIAS*/
 .page-node-16 .pane-vista-slider-noticias h2{
@@ -2061,6 +2225,37 @@ margin-top: 55px;
 /*****************************************************/
 /********* VISTA AMBIENTE ACADEMICAS ************/
 /*****************************************************/
+
+/******** dentro del nodo del ambiente 21 *********/
+
+.page-node-15 .panel-pane.pane-node-title.titulo-nodo h2 {
+    background-color: rgba(175, 102, 39,0.8);
+    color: #FFFFFF;
+    padding:20px 40px;
+    z-index: 1;
+    position: relative;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.page-node-15 .field.field-name-field-imagen-pagina.field-type-image.field-label-hidden {
+    margin-top: -73px;
+}
+
+
+.page-node-15 a{
+    color:#c47629;
+}
+
+.page-node-15 a:hover{
+    color:#c47629;
+}
+
+li.sf-item-2 a:hover {
+    color: #FFFFFF;
+    background-color: #c47629;
+}
 
 /*SLIDER NOTICIAS*/
 .page-node-15 .pane-vista-slider-noticias h2{
@@ -2247,6 +2442,39 @@ margin-top: 55px;
 /********* VISTA AMBIENTE EXTENSION ************/
 /*****************************************************/
 
+/******** dentro del nodo del ambiente 21 *********/
+
+.page-node-17 .panel-pane.pane-node-title.titulo-nodo h2 {
+    background-color: rgba(128, 22, 70,0.8);
+    color: #FFFFFF;
+    padding:20px 40px;
+    z-index: 1;
+    position: relative;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.page-node-17 .field.field-name-field-imagen-pagina.field-type-image.field-label-hidden {
+    margin-top: -73px;
+}
+
+
+.page-node-17 a{
+    color: rgb(128, 22, 70);
+}
+
+.page-node-17 a:hover{
+    color: rgb(128, 22, 70);
+}
+
+li.sf-item-4 a:hover {
+    color: #FFFFFF;
+    background-color: rgb(128, 22, 70);
+}
+
+
+
 /*SLIDER NOTICIAS*/
 .page-node-17 .pane-vista-slider-noticias h2{
 background-image: url("../images/extension_ambiente_titulo.png");
@@ -2288,7 +2516,7 @@ margin-top: 20px;
 
 /*VISTA NOVEVDADES*/
 .page-node-17 .pane-vista-novedades h2{
-    background-image: url("../images/ambiente-cyt-ultimas-noticias.png");
+    background-image: url("../images/ambiente-extension-ultimas-noticias.png");
     background-repeat: no-repeat;
     background-size: 284px 38px;
     text-indent: -9000px;
@@ -2423,6 +2651,38 @@ margin-top: 55px;
 /*****************************************************/
 /********* VISTA AMBIENTE comunicacion ************/
 /*****************************************************/
+
+/******** dentro del nodo del ambiente 21 *********/
+
+.page-node-22 .panel-pane.pane-node-title.titulo-nodo h2 {
+    background-color: rgba(83, 141, 63,0.8);
+    color: #FFFFFF;
+    padding:20px 40px;
+    z-index: 1;
+    position: relative;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.page-node-22 .field.field-name-field-imagen-pagina.field-type-image.field-label-hidden {
+    margin-top: -73px;
+}
+
+.page-node-22 a{
+    color: rgb(83, 141, 63);
+}
+
+.page-node-22 a:hover{
+    color: rgb(83, 141, 63);
+}
+
+li.sf-item-9 a:hover {
+    color: #FFFFFF;
+    background-color: rgb(83, 141, 63);
+}
+
+
 
 /*SLIDER NOTICIAS*/
 .page-node-22 .pane-vista-slider-noticias h2{
@@ -2604,7 +2864,256 @@ margin-top: 55px;
 
 /*FIN AMBIENTE*/
 
+
+/*****************************************************/
+/********* VISTA AMBIENTE Planificaion ************/
+/*****************************************************/
+
+/******** dentro del nodo del ambiente 21 *********/
+
+.page-node-20 .panel-pane.pane-node-title.titulo-nodo h2 {
+    background-color: rgba(58, 97, 44,0.8);
+    color: #FFFFFF;
+    padding:20px 40px;
+    z-index: 1;
+    position: relative;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.page-node-20 .field.field-name-field-imagen-pagina.field-type-image.field-label-hidden {
+    margin-top: -73px;
+}
+
+.page-node-20 a{
+    color: rgb(58, 97, 44);
+}
+
+.page-node-20 a:hover{
+    color: rgb(58, 97, 44);
+}
+
+li.sf-item-7 a:hover {
+    color: #FFFFFF;
+    background-color: rgb(58, 97, 44);
+}
+
+
+
+/*SLIDER NOTICIAS*/
+.page-node-20 .pane-vista-slider-noticias h2{
+background-image: url("../images/Planeamiento-titulo.png");
+background-repeat: no-repeat;
+background-size: 362px 57px;
+text-indent: -9000px;
+height: 80px;
+background-position-x: 100px;
+margin-bottom: 15px;
+/*el color es #3a612c*/
+background-color: rgba(58, 97, 44,0.15);
+background-position-y: 10px;
+}
+
+.page-node-20 .field-content.unc-slider{
+background-color: rgba(58, 97, 44,0.8);
+background-image: url("../images/icono_titular-blanco.png");
+}
+
+.page-node-20 .field-content.unc-slider a {
+color: #FFFFFF;
+}
+
+/*MENU REDES SOCIALES*/
+.page-node-20 .redes-sociales{
+    position: absolute;
+    right: 19px;
+    overflow: hidden;
+    top: 119px;
+    z-index: 99999;
+}
+
+/*TIRA DE BANNERS*/
+.page-node-20 .pane-vista-tira-banners{
+margin-bottom: 50px;
+margin-top: 20px;
+}
+
+
+/*VISTA NOVEVDADES*/
+.page-node-20 .pane-vista-novedades h2{
+    background-image: url("../images/Comunicacion_Novedades.png");
+    background-repeat: no-repeat;
+    background-size: 284px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 100px;
+    margin-bottom: 30px;
+}
+
+.page-node-20 .view-id-vista_novedades ul {
+    padding-left: 0px;
+}
+
+.page-node-20 .view-id-vista_novedades li {
+    background-color: rgba(58, 97, 44,0.1);
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-node-20 .view-id-vista_novedades li a {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #222222;
+}
+
+.page-node-20 .view-id-vista_novedades li:hover {
+    background-color: rgba(58, 97, 44,0.2);
+}
+
+.page-node-20 .view-id-vista_novedades li a:hover {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #3a612c;
+    text-decoration: none;
+}
+
+
+/*VISTA VIDEOS*/
+.page-node-20 .pane-vista-videos .view-id-vista_videos{
+    margin-top: 88px;
+}
+
+/* VISTA MULTIMEDIA*/
+.page-node-20 .pane-vista-multimedia-ambiente{
+margin-top: 55px;
+}
+
+
+/*VISTA AGENDA*/
+.page-node-20 .pane-vista-eventos{
+margin-top: 55px;
+}
+
+.page-node-20 .titulo-agenda:nth-child(odd) {
+    padding-top: 16px;
+    background-color: rgba(58, 97, 44,0.1);
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+
+.page-node-20 .titulo-agenda a:hover{
+    color: #3a612c;
+    text-decoration: none;
+}
+
+
+.page-node-20 .view-id-vista_eventos .fecha-agenda {
+    background-color: #3a612c;
+}
+
+/*VISTA CONTACTO*/
+.page-node-20 .pane-vista-contacto-ambiente{
+margin-top: 55px;
+}
+
+.page-node-20 .pane-vista-contacto-ambiente h2{
+    background-image: url("../images/Comunicacion_Contacto.png");
+    background-repeat: no-repeat;
+    background-size: 148px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 13px;
+    margin-bottom: 30px;
+}
+
+/*menues*/
+.page-node-20 li.active-trail a{
+    background-color: #3a612c;
+    color: #ffffff;
+}
+
+.page-node-20 li.active-trail span{
+    background-color: #3a612c;
+    color: #ffffff;
+}
+
+.page-node-20 .menu-ambiente-2nivel li> a{
+    border-right-width: 0;
+}
+
+.page-node-20 .menu-ambiente-2nivel li.menuparent a:hover{
+    background-color:#3a612c;
+    color:#ffffff;
+}
+
+.page-node-20 .menu-ambiente-2nivel li.menuparent span:hover{
+    background-color:#3a612c;
+    color:#ffffff;
+}
+
+.page-node-20 .sf-menu ul {
+    background-color: white;
+}
+
+.page-node-20 li.active-trail a{
+    background-color:#3a612c;
+    color: #ffffff;
+}
+
+.page-node-20 .menu-ambiente-2nivel li a:hover{
+    background-color:#3a612c;
+    color: #ffffff;
+}
+
+.page-node-20 ul#superfish-4 a{
+    background-color: #3a612c;
+    color: #ffffff;
+}
+
+.page-node-20 ul#superfish-4 li.active-trail a {
+    background-color: rgba(58, 97, 44, 0.15);
+    color: #3a612c;
+    border-right-width: 0;
+}
+
+
+/*FIN AMBIENTE*/
+
+
 /***********ambiente english************/
+
+/******** dentro del nodo del ambiente 21 *********/
+
+.page-node-25 .panel-pane.pane-node-title.titulo-nodo h2 {
+    background-color: rgba(9, 68, 105,0.8);
+    color: #FFFFFF;
+    padding:20px 40px;
+    z-index: 1;
+    position: relative;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.page-node-25 .field.field-name-field-imagen-pagina.field-type-image.field-label-hidden {
+    margin-top: -73px;
+}
+
+.page-node-25 a{
+    color: rgb(9, 68, 105);
+}
+
+.page-node-25 a:hover{
+    color: rgb(9, 68, 105);
+}
+
+li.sf-item-11 a:hover {
+    color: #FFFFFF;
+    background-color: rgb(9, 68, 105);
+}
+
 
 /*menues*/
 .page-node-25 li.active-trail a{
@@ -2660,6 +3169,38 @@ margin-top: 55px;
 
 
 /* --------------- AMBIENTE AGENDA -------------- */
+
+/******** dentro del nodo del ambiente 21 *********/
+
+.page-node-26 .panel-pane.pane-node-title.titulo-nodo h2 {
+    background-color: rgba(195, 13, 39,0.8);
+    color: #FFFFFF;
+    padding:20px 40px;
+    z-index: 1;
+    position: relative;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.page-node-26 .field.field-name-field-imagen-pagina.field-type-image.field-label-hidden {
+    margin-top: -73px;
+}
+
+.page-node-26 a{
+    color: rgb(195, 13, 39);
+}
+
+.page-node-26 a:hover{
+    color: rgb(195, 13, 39);
+}
+
+li.sf-item-10 a:hover {
+    color: #FFFFFF;
+    background-color: rgb(195, 13, 39);
+}
+
+
 
 .page-node-26 h1.page-header-agenda{
 background-image: url("../images/agenda.png");
