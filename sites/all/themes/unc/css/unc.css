@@ -200,7 +200,7 @@ a.link-gestion.sf-depth-1.active{
     color: #ffffff;
 }
 a.link-planificacion.sf-depth-1.active{
-    background-color:#3a612c;
+    background-color:#00675e;
     color: #ffffff;
 }
 
@@ -278,8 +278,8 @@ margin-bottom: 120px;
 }
 
 #tira-banners .view-vista-tira-banners {
-    margin-right: 70px;
-    margin-left: 40px;
+/*    margin-right: 70px;
+    margin-left: 40px;*/
 }
 
 
@@ -289,7 +289,11 @@ div.owl-carousel-block_19 div.owl-wrapper:first-child {
 }
 */
 .owl-carousel-block_19 .owl-item {
-width: 200px !important;
+/*width: 200px !important;*/
+}
+
+.owl-carousel-block_19 .owl-pagination {
+    float: right;
 }
 
 .owl-carousel-block_19 .owl-wrapper {
@@ -297,11 +301,11 @@ margin-left: 58px;
 }
 
 .owl-carousel-block_19 .owl-controls.clickable {
-margin-top: -70px;
+/*margin-top: -70px;*/
 }
 
 .owl-carousel-block_19 .owl-controls.clickable .owl-prev {
-    float: left;
+/*    float: left;
     background-image: url("../images/izquierda.png");
     background-repeat: no-repeat;
     width: 70px;
@@ -315,11 +319,11 @@ margin-top: -70px;
     margin-right: 0;
     opacity: 1;
     background-size: 37px 65px;
-    font-size: 1px;
+    font-size: 1px;*/
 }
 
 .owl-carousel-block_19 .owl-controls.clickable .owl-next {
-    float: right;
+/*    float: right;
     background-image: url("../images/derecha.png");
     background-repeat: no-repeat;
     width: 70px;
@@ -333,7 +337,7 @@ margin-top: -70px;
     margin-left: 0;
     opacity: 1;
     background-size: 37px 65px;
-    font-size: 1px;
+    font-size: 1px;*/
 }
 
 .owl-carousel-block_19 .owl-theme .owl-controls {
@@ -341,7 +345,7 @@ margin-top: -70px;
     margin-right: -70px;
 }
 .owl-carousel-block_19 .owl-item img {
-width: 170px;
+/*width: 170px;*/
 }
 
 /*SLIDER*/
@@ -1421,7 +1425,7 @@ color: #FFFFFF;
 }
 
 
-li.sf-item-8 a:hover {
+#superfish-2 li.sf-item-8 a:hover {
     color: #FFFFFF;
     background-color: rgb(116, 173, 225);
 }
@@ -1509,7 +1513,7 @@ li.sf-item-8 a:hover {
     color: #A41D34;
 }
 
-li.sf-item-5 a:hover {
+#superfish-2 li.sf-item-5 a:hover {
     color: #FFFFFF;
     background-color: #A41D34;
 }
@@ -1723,7 +1727,7 @@ margin-top: 55px;
     color: #094469;
 }
 
-li.sf-item-1 a:hover {
+#superfish-2 li.sf-item-1 a:hover {
     color: #FFFFFF;
     background-color: #094469;
 }
@@ -1809,7 +1813,7 @@ li.sf-item-1 a:hover {
     color: #3A612E;
 }
 
-li.sf-item-6 a:hover {
+#superfish-2 li.sf-item-6 a:hover {
     color: #FFFFFF;
     background-color: #3A612E;
 }
@@ -1856,14 +1860,26 @@ margin-top: 20px;
 
 /*VISTA NOVEVDADES*/
 .page-node-19 .pane-vista-novedades h2{
-    background-image: url("../images/gestion-novedades-legislativas.png");
+    background-image: url("../images/Gestion_Novedades_x2.png");
     background-repeat: no-repeat;
-    background-size: 284px 38px;
+    background-size: 163px 38px;
     text-indent: -9000px;
     height: 38px;
     background-position-x: 100px;
     margin-bottom: 30px;
 }
+
+.page-node-19 .vista-novedades-3 h2{
+    background-image: url("../images/gestion-novedades-legislativas.png");
+    background-repeat: no-repeat;
+    background-size: 251px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 100px;
+    margin-bottom: 30px;
+}
+
+
 
 .page-node-19 .view-id-vista_novedades ul {
     padding-left: 0px;
@@ -1933,10 +1949,9 @@ margin-top: 55px;
 }
 
 .page-node-19 .pane-vista-contacto-ambiente h2{
-/*FALTA FAJA DE CONTACTO DE GESTION*/
-    background-image: url("../images/ambiente-vidaestudiantil-contacto.png");
+    background-image: url("../images/Gestion_Contactos_x2.png");
     background-repeat: no-repeat;
-    background-size: 148px 38px;
+    background-size: 163px 38px;
     text-indent: -9000px;
     height: 38px;
     background-position-x: 13px;
@@ -2024,7 +2039,7 @@ margin-top: 55px;
     color: rgb(0, 117, 139);
 }
 
-li.sf-item-3 a:hover {
+#superfish-2 li.sf-item-3 a:hover {
     color: #FFFFFF;
     background-color: rgb(0, 117, 139);
 }
@@ -2074,12 +2089,27 @@ margin-top: 20px;
 .page-node-16 .pane-vista-novedades h2{
     background-image: url("../images/ambiente-cyt-ultimas-noticias.png");
     background-repeat: no-repeat;
-    background-size: 284px 38px;
+    background-size: 285px 38px;
     text-indent: -9000px;
     height: 38px;
     background-position-x: 100px;
     margin-bottom: 30px;
+    margin-top:0;
 }
+
+
+/*VISTA NOVEVDADES 3*/
+.page-node-16 .vista-novedades-3 h2{
+    background-image: url("../images/CienciayTecnologia_Novedades_x2.png");
+    background-repeat: no-repeat;
+    background-size: 163px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 100px;
+    margin-bottom: 30px;
+    margin-top:0;
+}
+
 
 .page-node-16 .view-id-vista_novedades ul {
     padding-left: 0px;
@@ -2145,18 +2175,19 @@ margin-top: 55px;
 
 /*VISTA CONTACTO*/
 .page-node-16 .pane-vista-contacto-ambiente{
-margin-top: 55px;
+/*margin-top: 55px;*/
 }
 
 .page-node-16 .pane-vista-contacto-ambiente h2{
-/*FALTA FAJA DE CONTACTO DE GESTION*/
+/*FALTA FAJA DE CONTACTO DE GESTION
     background-image: url("../images/ambiente-cyt-contacto.png");
     background-repeat: no-repeat;
     background-size: 148px 38px;
     text-indent: -9000px;
     height: 38px;
     background-position-x: 13px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;*/
+    display:none;
 }
 
 /*menues*/
@@ -2241,14 +2272,14 @@ margin-top: 55px;
     color:#c47629;
 }
 
-li.sf-item-2 a:hover {
+#superfish-2 li.sf-item-2 a:hover {
     color: #FFFFFF;
     background-color: #c47629;
 }
 
 /*SLIDER NOTICIAS*/
 .page-node-15 .pane-vista-slider-noticias h2{
-background-image: url("../images/ambiente-cyt-nombre.png");
+background-image: url("../images/ambiente-academicas-nombre.png");
 background-repeat: no-repeat;
 background-size: 352px 80px;
 text-indent: -9000px;
@@ -2287,9 +2318,9 @@ margin-top: 20px;
 
 /*VISTA NOVEVDADES*/
 .page-node-15 .pane-vista-novedades h2{
-    background-image: url("../images/ambiente-cyt-ultimas-noticias.png");
+    background-image: url("../images/ambiente-academicas-ultimas-noticias.png");
     background-repeat: no-repeat;
-    background-size: 284px 38px;
+    background-size: 285px 38px;
     text-indent: -9000px;
     height: 38px;
     background-position-x: 100px;
@@ -2364,9 +2395,9 @@ margin-top: 55px;
 
 .page-node-15 .pane-vista-contacto-ambiente h2{
 /*FALTA FAJA DE CONTACTO DE GESTION*/
-    background-image: url("../images/ambiente-cyt-contacto.png");
+    background-image: url("../images/Academicas_Contacto_x2.png");
     background-repeat: no-repeat;
-    background-size: 148px 38px;
+    background-size: 163px 38px;
     text-indent: -9000px;
     height: 38px;
     background-position-x: 13px;
@@ -2457,7 +2488,7 @@ margin-top: 55px;
     color: rgb(128, 22, 70);
 }
 
-li.sf-item-4 a:hover {
+#superfish-2 li.sf-item-4 a:hover {
     color: #FFFFFF;
     background-color: rgb(128, 22, 70);
 }
@@ -2555,6 +2586,17 @@ margin-top: 55px;
 
 
 /*VISTA AGENDA*/
+.page-node-17 .pane-vista-eventos h2 {
+    background-image: url("../images/Extension_Agenda_x2.png");
+    background-repeat: no-repeat;
+    background-size: 163px 38px;
+    text-indent: -9000px;
+    height: 40px;
+    background-position-x: 10%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
 .page-node-17 .pane-vista-eventos{
 margin-top: 55px;
 }
@@ -2582,10 +2624,9 @@ margin-top: 55px;
 }
 
 .page-node-17 .pane-vista-contacto-ambiente h2{
-/*FALTA FAJA DE CONTACTO DE GESTION*/
-    background-image: url("../images/ambiente-cyt-contacto.png");
+    background-image: url("../images/Extension_Contactos_x2.png");
     background-repeat: no-repeat;
-    background-size: 148px 38px;
+    background-size: 163px 38px;
     text-indent: -9000px;
     height: 38px;
     background-position-x: 13px;
@@ -2666,7 +2707,7 @@ margin-top: 55px;
     color: rgb(83, 141, 63);
 }
 
-li.sf-item-9 a:hover {
+#superfish-2 li.sf-item-9 a:hover {
     color: #FFFFFF;
     background-color: rgb(83, 141, 63);
 }
@@ -2861,7 +2902,7 @@ margin-top: 55px;
 /******** dentro del nodo del ambiente 21 *********/
 
 .page-node-20 .panel-pane.pane-node-title.titulo-nodo h2 {
-    background-color: rgba(58, 97, 44,0.8);
+    background-color: rgba(0, 103, 94,0.8);
     color: #FFFFFF;
     padding:20px 40px;
     z-index: 1;
@@ -2876,36 +2917,36 @@ margin-top: 55px;
 }
 
 .page-node-20 a{
-    color: rgb(58, 97, 44);
+    color: rgb(0, 103, 94);
 }
 
 .page-node-20 a:hover{
-    color: rgb(58, 97, 44);
+    color: rgb(0, 103, 94);
 }
 
-li.sf-item-7 a:hover {
+#superfish-2 li.sf-item-7 a:hover {
     color: #FFFFFF;
-    background-color: rgb(58, 97, 44);
+    background-color: rgb(0, 103, 94);
 }
 
 
 
 /*SLIDER NOTICIAS*/
 .page-node-20 .pane-vista-slider-noticias h2{
-background-image: url("../images/Planeamiento-titulo.png");
+background-image: url("../images/planificacion-titulo.png");
 background-repeat: no-repeat;
 background-size: 362px 57px;
 text-indent: -9000px;
 height: 80px;
 background-position-x: 100px;
 margin-bottom: 15px;
-/*el color es #3a612c*/
-background-color: rgba(58, 97, 44,0.15);
+/*el color es #00675e*/
+background-color: rgba(0, 103, 94,0.15);
 background-position-y: 10px;
 }
 
 .page-node-20 .field-content.unc-slider{
-background-color: rgba(58, 97, 44,0.8);
+background-color: rgba(0, 103, 94,0.8);
 background-image: url("../images/icono_titular-blanco.png");
 }
 
@@ -2931,9 +2972,9 @@ margin-top: 20px;
 
 /*VISTA NOVEVDADES*/
 .page-node-20 .pane-vista-novedades h2{
-    background-image: url("../images/Comunicacion_Novedades.png");
+    background-image: url("../images/planeamiento_novedades.png");
     background-repeat: no-repeat;
-    background-size: 284px 38px;
+    background-size: 178px 38px;
     text-indent: -9000px;
     height: 38px;
     background-position-x: 100px;
@@ -2945,7 +2986,7 @@ margin-top: 20px;
 }
 
 .page-node-20 .view-id-vista_novedades li {
-    background-color: rgba(58, 97, 44,0.1);
+    background-color: rgba(0, 103, 94,0.1);
     list-style: none;
     margin-bottom: 15px;
     line-height: 50px;
@@ -2958,13 +2999,13 @@ margin-top: 20px;
 }
 
 .page-node-20 .view-id-vista_novedades li:hover {
-    background-color: rgba(58, 97, 44,0.2);
+    background-color: rgba(0, 103, 94,0.2);
 }
 
 .page-node-20 .view-id-vista_novedades li a:hover {
     vertical-align: middle;
     margin-left: 10px;
-    color: #3a612c;
+    color: #00675e;
     text-decoration: none;
 }
 
@@ -2987,19 +3028,19 @@ margin-top: 55px;
 
 .page-node-20 .titulo-agenda:nth-child(odd) {
     padding-top: 16px;
-    background-color: rgba(58, 97, 44,0.1);
+    background-color: rgba(0, 103, 94,0.1);
     padding-bottom: 16px;
     margin-bottom: 10px;
 }
 
 .page-node-20 .titulo-agenda a:hover{
-    color: #3a612c;
+    color: #00675e;
     text-decoration: none;
 }
 
 
 .page-node-20 .view-id-vista_eventos .fecha-agenda {
-    background-color: #3a612c;
+    background-color: #00675e;
 }
 
 /*VISTA CONTACTO*/
@@ -3008,9 +3049,9 @@ margin-top: 55px;
 }
 
 .page-node-20 .pane-vista-contacto-ambiente h2{
-    background-image: url("../images/Comunicacion_Contacto.png");
+    background-image: url("../images/planeamiento_contacto.png");
     background-repeat: no-repeat;
-    background-size: 148px 38px;
+    background-size: 163px 38px;
     text-indent: -9000px;
     height: 38px;
     background-position-x: 13px;
@@ -3019,12 +3060,12 @@ margin-top: 55px;
 
 /*menues*/
 .page-node-20 li.active-trail a{
-    background-color: #3a612c;
+    background-color: #00675e;
     color: #ffffff;
 }
 
 .page-node-20 li.active-trail span{
-    background-color: #3a612c;
+    background-color: #00675e;
     color: #ffffff;
 }
 
@@ -3033,12 +3074,12 @@ margin-top: 55px;
 }
 
 .page-node-20 .menu-ambiente-2nivel li.menuparent a:hover{
-    background-color:#3a612c;
+    background-color:#00675e;
     color:#ffffff;
 }
 
 .page-node-20 .menu-ambiente-2nivel li.menuparent span:hover{
-    background-color:#3a612c;
+    background-color:#00675e;
     color:#ffffff;
 }
 
@@ -3047,23 +3088,23 @@ margin-top: 55px;
 }
 
 .page-node-20 li.active-trail a{
-    background-color:#3a612c;
+    background-color:#00675e;
     color: #ffffff;
 }
 
 .page-node-20 .menu-ambiente-2nivel li a:hover{
-    background-color:#3a612c;
+    background-color:#00675e;
     color: #ffffff;
 }
 
 .page-node-20 ul#superfish-4 a{
-    background-color: #3a612c;
+    background-color: #00675e;
     color: #ffffff;
 }
 
 .page-node-20 ul#superfish-4 li.active-trail a {
-    background-color: rgba(58, 97, 44, 0.15);
-    color: #3a612c;
+    background-color: rgba(0, 103, 94,0.15);
+    color: #00675e;
     border-right-width: 0;
 }
 
@@ -3098,9 +3139,149 @@ margin-top: 55px;
     color: rgb(9, 68, 105);
 }
 
-li.sf-item-11 a:hover {
+#superfish-2 li.sf-item-11 a:hover {
     color: #FFFFFF;
     background-color: rgb(9, 68, 105);
+}
+
+/*SLIDER NOTICIAS*/
+.page-node-25 .pane-vista-slider-noticias h2{
+background-image: url("../images/ambiente-english-nombre.png");
+background-repeat: no-repeat;
+background-size: 362px 57px;
+text-indent: -9000px;
+height: 80px;
+background-position-x: 100px;
+margin-bottom: 15px;
+/*el color es #*/
+background-color: rgba(9, 68, 105,0.15);
+background-position-y: 10px;
+}
+
+.page-node-25 .field-content.unc-slider{
+background-color: rgba(9, 68, 105,0.8);
+background-image: url("../images/icono_titular-blanco.png");
+}
+
+.page-node-25 .field-content.unc-slider a {
+color: #FFFFFF;
+}
+
+
+/*MENU REDES SOCIALES*/
+.page-node-25 .redes-sociales{
+    position: absolute;
+    right: 19px;
+    overflow: hidden;
+    top: 119px;
+    z-index: 99999;
+}
+
+/*TIRA DE BANNERS*/
+.page-node-25 .pane-vista-tira-banners{
+margin-bottom: 50px;
+margin-top: 20px;
+}
+
+
+/*VISTA NOVEVDADES*/
+.page-node-25 .pane-vista-novedades h2{
+    background-image: url("../images/ambiente-english-news.png");
+    background-repeat: no-repeat;
+    background-size: 285px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 100px;
+    margin-bottom: 30px;
+}
+
+.page-node-25 .view-id-vista_novedades ul {
+    padding-left: 0px;
+}
+
+.page-node-25 .view-id-vista_novedades li {
+    background-color: rgba(9, 68, 105,0.1);
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.page-node-25 .view-id-vista_novedades li a {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #222222;
+}
+
+.page-node-25 .view-id-vista_novedades li:hover {
+    background-color: rgba(9, 68, 105,0.2);
+}
+
+.page-node-25 .view-id-vista_novedades li a:hover {
+    vertical-align: middle;
+    margin-left: 10px;
+    color: rgb(9, 68, 105);
+    text-decoration: none;
+}
+
+
+/*VISTA VIDEOS*/
+.page-node-25 .pane-vista-videos .view-id-vista_videos{
+    margin-top: 88px;
+}
+
+/* VISTA MULTIMEDIA*/
+.page-node-25 .pane-vista-multimedia-ambiente{
+margin-top: 55px;
+}
+
+
+/*VISTA AGENDA*/
+
+.page-node-25 .pane-vista-eventos h2 {
+    background-image: url("../images/ambiente-english-agenda.png");
+    background-repeat: no-repeat;
+    background-size: 285px 38px;
+    text-indent: -9000px;
+    height: 40px;
+    background-position-x: 10%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.page-node-25 .pane-vista-eventos{
+margin-top: 55px;
+}
+
+.page-node-25 .titulo-agenda:nth-child(odd) {
+    padding-top: 16px;
+    background-color: rgba(9, 68, 105,0.1);
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+
+.page-node-25 .titulo-agenda a:hover{
+    color: rgb(9, 68, 105);
+    text-decoration: none;
+}
+
+
+.page-node-25 .view-id-vista_eventos .fecha-agenda {
+    background-color: rgb(9, 68, 105);
+}
+
+/*VISTA CONTACTO*/
+.page-node-25 .pane-vista-contacto-ambiente{
+margin-top: 55px;
+}
+
+.page-node-25 .pane-vista-contacto-ambiente h2{
+    background-image: url("../images/ambiente-english-onlinecommunity.png");
+    background-repeat: no-repeat;
+    background-size: 285px 38px;
+    text-indent: -9000px;
+    height: 38px;
+    background-position-x: 13px;
+    margin-bottom: 30px;
 }
 
 
@@ -3184,7 +3365,7 @@ li.sf-item-11 a:hover {
     color: rgb(195, 13, 39);
 }
 
-li.sf-item-10 a:hover {
+#superfish-2 li.sf-item-10 a:hover {
     color: #FFFFFF;
     background-color: rgb(195, 13, 39);
 }
@@ -3396,7 +3577,47 @@ background-position-y: 15px;
     width: 42%;
 }
 
+.banner-container {
+    width: 29.7%;
+    float: left;
+    padding-bottom: 17px;
+}
+
+.banner-saa {
+    background-color: #C47629;
+}
+
+.banner-container img {
+    width: 100%;
+}
+.banner-title {
+    padding: 56px 0 30px;
+}
+.banner-title img {
+    width: 28%;
+    margin-top: 50px;
+}
+
+.middle {
+    margin: 0 5.4%;
+}
+
 /*responsive css*/
+
+@media screen and (max-width: 468px) {
+     .banner-container {
+             float: none;
+             display: block;
+             width: 100%;
+             height: auto;
+     }
+
+     .middle {margin:0;}
+     .banner-title img {
+          width: 76%;
+          margin-top: 30px;
+    }
+}
 
 /*dispositivos < 768 */
 @media (max-width: 767px){
@@ -3439,3 +3660,7 @@ background-position-y: 15px;
   }
 }
 
+.page-node-15 .banner-container ul li{
+    list-style: none;
+    border: none;
+}

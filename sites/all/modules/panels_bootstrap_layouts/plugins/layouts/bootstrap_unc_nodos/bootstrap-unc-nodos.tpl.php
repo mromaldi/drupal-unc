@@ -9,7 +9,7 @@
 
   <?php if ($content['sidebarleft'] || $content['contentr']): ?>
     <div class="row">
-        <div class="col-xs-12 col-md-7">
+        <div class="col-xs-12 col-md-6 col-md-offset-1">
         <?php print $content['sidebarleft']; ?>
         </div>
         <div class="col-xs-12 col-md-4 col-md-offset-1">
