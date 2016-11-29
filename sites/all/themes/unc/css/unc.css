@@ -274,7 +274,7 @@ ul#superfish-4 li > a{
 /*VISTA TIRA DE BANNERS*/
 
 #tira-banners{
-margin-bottom: 120px;
+margin-bottom: 70px;
 }
 
 #tira-banners .view-vista-tira-banners {
@@ -398,6 +398,10 @@ margin-left: 58px;
 }
 .flex-control-paging li a{
     background: rgba(134, 151, 145,1);
+}
+
+.front .panel-pane.pane-views.pane-vista-slider-noticias {
+    margin-bottom: 80px;
 }
 
 /* Vista Tira Noticias */
